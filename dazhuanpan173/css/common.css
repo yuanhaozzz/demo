@@ -1,0 +1,631 @@
+body,
+ul,
+ol,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+table,
+td,
+img,
+div {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  background: #f28e3c url(../images/bg.png) no-repeat;
+  background-size: 100%;
+  color: #333;
+  font-size: 12px;
+  font-family: "Microsoft YaHei";
+  overflow-x: hidden;
+  height: 100%;
+}
+
+.kdt {
+  height: 6.405rem;
+}
+
+.kdt .cao {
+  position: absolute;
+  top: 0;
+  left: 6.35rem;
+  width: 2.525rem;
+  height: 8rem;
+  background: url(https://hdggcdn.bayimob.com/hdggstatic/dazhuanpan18/shanhu.png) no-repeat center center;
+  background-size: 100%;
+  z-index: 3;
+}
+
+.animationhua {
+  transform-origin: center top;
+  animation: tionhua 5s linear infinite;
+  -webkit-animation: tionhua 5s linear infinite;
+}
+
+@keyframes tionhua {
+  0%, 50%, 100% {
+    transform: rotate(0);
+  }
+  25% {
+    transform: rotate(-5deg);
+  }
+  75% {
+    transform: rotate(5deg);
+  }
+}
+
+@-webkit-keyframes tionhua {
+  0%, 50%, 100% {
+    transform: rotate(0);
+  }
+  25% {
+    transform: rotate(-5deg);
+  }
+  75% {
+    transform: rotate(5deg);
+  }
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+select,
+input,
+img,
+select {
+  vertical-align: middle;
+}
+
+input {
+  font-size: 12px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  color: #c00;
+  text-decoration: none;
+}
+
+.clear {
+  clear: both;
+}
+
+/* 大转盘样式 */
+html {
+  background: #ebebe9;
+  height: 100%;
+}
+
+.banner {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  margin-top: 3.2rem;
+}
+
+.banner .turnplate {
+  display: block;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+@keyframes play {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes play1 {
+  0% {
+    transform: rotate(-360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.banner .turnplate img.pointer {
+  position: absolute;
+  width: 3.175rem;
+  left: 50%;
+  margin-left: -1.5875rem;
+  top: 38%;
+  z-index: 2;
+}
+
+.kdt img.pointer1 {
+  position: absolute;
+  width: 1.2rem;
+  left: 45%;
+  top: 8rem;
+  z-index: 2;
+}
+
+.bianBox {
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100%;
+  width: 16.7rem;
+  height: 16.7rem;
+  top: 9rem;
+  left: 50%;
+  margin-left: -8.35rem;
+  z-index: 2;
+  animation: changeDeng 2s 0.3s steps(3, end) infinite;
+  -webkit-animation: changeDeng 2s 0.3s steps(3, end) infinite;
+}
+
+@keyframes changeDeng {
+  0% {
+    background-image: url(https://hdggcdn.bayimob.com/hdggstatic/dazhuanpan39/guang1.png);
+    transform: rotate(-360deg);
+  }
+  50% {
+    background-image: url(https://hdggcdn.bayimob.com/hdggstatic/dazhuanpan39/guang1.png);
+    transform: rotate(-180deg);
+  }
+  100% {
+    background-image: url(https://hdggcdn.bayimob.com/hdggstatic/dazhuanpan39/guang1.png);
+    transform: rotate(0deg);
+  }
+}
+
+@-webkit-keyframes changeDeng {
+  0% {
+    background-image: url(https://hdggcdn.bayimob.com/hdggstatic/dazhuanpan39/guang1.png);
+    transform: rotate(-360deg);
+  }
+  50% {
+    background-image: url(https://hdggcdn.bayimob.com/hdggstatic/dazhuanpan39/guang1.png);
+    transform: rotate(-180deg);
+  }
+  100% {
+    background-image: url(https://hdggcdn.bayimob.com/hdggstatic/dazhuanpan39/guang1.png);
+    transform: rotate(0deg);
+  }
+}
+
+.banner .turnplate .bian {
+  background: url(../images/group.png) no-repeat center center;
+  background-size: 100%;
+  width: 13.125rem;
+  height: 13.125rem;
+  transform-origin: center center;
+}
+
+.banner .turnplate .bian.active {
+  animation: play1 20s linear infinite;
+}
+
+/*转盘菱形块*/
+.circle-box {
+  position: absolute;
+  top: .065rem;
+  left: .065rem;
+  overflow: hidden;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+}
+
+#circle {
+  -webkit-transform: rotate(40deg);
+  transform: rotate(40deg);
+  /*-webkit-border-radius: 50%;*/
+  /*border-radius: 50%;*/
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+#circle .prize {
+  position: absolute;
+  width: 7.9rem;
+  height: 7.9rem;
+  -webkit-transform-origin: right bottom;
+  transform-origin: right bottom
+}
+
+@keyframes dengchange {
+  from {
+    background: url(https://hdggcdn.bayimob.com/hdggstatic/dazhuanpan/zhuanpanguang-2.png);
+    background-size: 100% 100%;
+  }
+  to {
+    background: url(https://hdggcdn.bayimob.com/hdggstatic/dazhuanpan/zhuanpanguang-1.png);
+    background-size: 100% 100%;
+  }
+}
+
+.banner .turnplate .ding {
+  background: url(https://hdggcdn.bayimob.com/hdggstatic/dazhuanpan/dingbu.png);
+  background-size: 100% 100%;
+  position: absolute;
+  width: 2rem;
+  height: 2.15rem;
+  left: 44%;
+  top: 0%;
+  z-index: 1;
+}
+
+.more {
+  display: block;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 150px;
+}
+
+.cloud {
+  position: fixed;
+  left: 0;
+  top: 70%;
+  width: 150px;
+}
+
+.cloud2 {
+  position: fixed;
+  right: 0;
+  top: 32%;
+  width: 50px;
+}
+
+.cloud3 {
+  position: fixed;
+  left: 0;
+  top: 30%;
+  width: 100px;
+}
+
+#mark {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+.red-img {
+  position: fixed;
+  top: 10%;
+  left: 5%;
+  width: 90%;
+}
+
+.rule {
+  position: absolute;
+  left: 0.5rem;
+  top: 0.5rem;
+  width: 2.5rem;
+  height: 0.9rem;
+  /*/ / line-height: 1.15 rem;*/
+  text-align: center;
+  font-size: 0.65rem;
+  z-index: 1;
+  background: url(https://hdggcdn.bayimob.com/hdggstatic/dazhuanpan6/rule.png) no-repeat;
+  background-size: 100% 100%;
+}
+
+.wenli {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background: url(https://hdggcdn.bayimob.com/hdggstatic/dazhuanpan/dzp1_bgshow.png) no-repeat;
+  background-size: 100% 100%;
+}
+
+.counts {
+    width: 5.5rem;
+    height: 1.25rem;
+    line-height: 1.25rem;
+    text-align: center;
+    /* margin: 0.6rem auto -1rem; */
+    text-indent: 0.3rem;
+    color: #fff;
+    border-radius: 1rem;
+    font-size: 0.7rem;
+    position: absolute;
+    top: 26.3rem;
+    left: 49%;
+    margin-left: -2.75rem;
+}
+
+.jiang {
+  position: absolute;
+  right: 0.5rem;
+  top: 0.5rem;
+  width: 2.5rem;
+  height: 0.9rem;
+  line-height: 1.15rem;
+  text-align: center;
+  font-size: 0.65rem;
+  z-index: 2;
+  background: url(https://hdggcdn.bayimob.com/hdggstatic/dazhuanpan6/prize.png) no-repeat;
+  background-size: 100% 100%;
+}
+
+.notice {
+  position: relative;
+  padding-bottom: 0.5rem;
+  z-index: 3;
+}
+
+.notice h1 {
+  font-size: 0.8rem;
+  line-height: 1rem;
+  margin-top: 0.5rem;
+  color: #440d00;
+  text-align: center;
+  font-weight: normal;
+}
+
+.notice h1.ntile1 {
+  height: 3.5rem;
+  border-top-right-radius: 0.75rem;
+  border-top-left-radius: 0.75rem;
+  margin-top: 0;
+  background: url(https://hdggcdn.bayimob.com/hdggstatic/activenotice.jpg) no-repeat;
+  background-size: 100% 100%;
+}
+
+.notice h1.title {
+  color: #440d00;
+  text-align: left;
+  margin-top: 0.5rem;
+  margin-bottom: 0.25rem;
+}
+
+.notice h1 span {
+  width: 1.75rem;
+  height: 1px;
+  display: inline-block;
+  background: #440d00;
+  vertical-align: middle;
+}
+
+.notice h1 span:first-child {
+  margin-right: 0.4rem;
+}
+
+.notice h1 span:last-child {
+  margin-left: 0.4rem;
+}
+
+.notice .contant {
+  width: 85%;
+  height: 16rem;
+  margin: 0 auto;
+  padding: 0.5rem;
+  color: #440d00;
+  overflow: auto;
+}
+
+.notice .contant p {
+  line-height: 1rem;
+  font-size: 0.6rem;
+  margin-bottom: 0.25rem;
+}
+
+.notice .contant p.font14,
+.notice .contant h1.font14 {
+  font-size: 0.7rem;
+}
+
+.zhenotice {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  width: 100%;
+  height: 100%;
+  z-index: 4;
+  background: rgba(0, 0, 0, 0.4)
+}
+
+.alerty {
+  position: absolute;
+  top: 5.0rem;
+  left: 0;
+  display: none;
+  z-index: 5;
+  margin-top: 0.5rem;
+  margin-bottom: 0.9rem;
+  margin-right: 1.375rem;
+  margin-left: 1.375rem;
+  background: #fff;
+  border-radius: 0.75rem;
+}
+
+.saclose {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  z-index: 3;
+  width: 1.6em;
+  height: 1.6em;
+  background: url(https://hdggcdn.bayimob.com/hdggstatic/hdgg_close.png) 0 0 no-repeat;
+  background-size: contain;
+}
+
+.moresay {
+  background: #fd6918;
+  color: #fff;
+  width: 80%;
+  height: 1.5rem;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1.5rem;
+}
+
+.moresayp {
+  display: none;
+  padding-top: 1.0rem;
+}
+
+.moresay i {
+  display: inline-block;
+  width: .4rem;
+  height: .4rem;
+  margin-left: .3rem;
+  transition: all .3s ease-in-out;
+  -webkit-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+  -webkit-transform-origin: .15rem .15rem;
+  transform-origin: .15rem .15rem;
+  vertical-align: middle;
+  border: 1px solid transparent;
+  border-top-color: #fff;
+  border-left-color: #fff;
+}
+
+.activeadv i {
+  -webkit-transform: rotate(-315deg);
+  transform: rotate(-315deg);
+}
+
+#hdgg_show-win {
+  padding-left: 0;
+  margin-left: 0.2rem;
+}
+
+#hdgg_more_game_award {
+  z-index: 3;
+}
+
+.DB_guide .DB_G_circle, .DB_guide .DB_G_hand {
+  position: absolute;
+  background-repeat: no-repeat;
+}
+
+.DB_guide {
+  position: absolute;
+  left: 40%;
+  top: 6.5rem;
+  z-index: 2;
+  pointer-events: none;
+}
+
+@keyframes guidCircle {
+  0%, 20% {
+    opacity: 0;
+    transform: scale(0, 0)
+  }
+
+  50%, 80% {
+    opacity: 1;
+    transform: scale(1, 1)
+  }
+
+  100% {
+    opacity: 0;
+    transform: scale(1, 1)
+  }
+}
+
+@-webkit-keyframes guidCircle {
+  0%, 20% {
+    opacity: 0;
+    transform: scale(0, 0)
+  }
+
+  50%, 80% {
+    opacity: 1;
+    transform: scale(1, 1)
+  }
+
+  100% {
+    opacity: 0;
+    transform: scale(1, 1)
+  }
+}
+
+.DB_guide .DB_G_circle {
+  background-image: url(https://hdggcdn.bayimob.com/hdggstatic/yaoshaizi2/circleHand.png);
+  background-size: 100%;
+  width: 1.6rem;
+  height: 1.6rem;
+  left: 2rem;
+  top: -0.75rem;
+  opacity: 0;
+  -webkit-animation: guidCircle 1.5s linear infinite normal;
+  animation: guidCircle 1.5s linear infinite normal;
+}
+
+@keyframes guideHand2 {
+  0% {
+    background-position: 0 0
+  }
+
+  50% {
+    background-position: right 0
+  }
+}
+
+@-webkit-keyframes guideHand2 {
+  0% {
+    background-position: 0 0
+  }
+
+  50% {
+    background-position: right 0
+  }
+}
+
+.DB_guide .DB_G_hand {
+  width: 4.225rem;
+  height: 4.35rem;
+  left: 2.5rem;
+  top: -0.65rem;
+  background-image: url(https://hdggcdn.bayimob.com/hdggstatic/yaoshaizi2/hand.png);
+  -webkit-animation: guideHand2 .5s step-start infinite;
+  animation: guideHand2 .5s step-start infinite;
+  background-size: cover;
+}
+
+@-webkit-keyframes guideHand {
+  0% {
+    opacity: 1;
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
+  }
+  20%, 80% {
+    opacity: 1;
+    -webkit-transform: scale(.8, .8);
+    transform: scale(.8, .8);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(.8, .8);
+    transform: scale(.8, .8);
+  }
+}
