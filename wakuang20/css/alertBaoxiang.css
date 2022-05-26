@@ -1,0 +1,184 @@
+.propur  {
+	position: fixed;
+	z-index: 10000;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	overflow: hidden;
+	background-color: rgba(0, 0, 0, .85);
+	/* display: none; */
+	cursor: pointer; 
+}
+.imgBox {
+	width:18.75rem;
+	height: 33.35rem;
+	background: url(../img/tcBg.png) no-repeat;
+	background-size: 100%;
+	
+}
+.tcAnimation {
+	animation: imgGo .6s linear;
+	-webkit-animation:imgGo .6s linear;
+}
+@-webkit-keyframes imgGo{
+	from{-webkit-transform: scale(0);}
+	to{-webkit-transform: scale(1);}
+}
+@keyframes imgGo{
+	from{transform: scale(0)}
+	to{transform: scale(1)}
+}
+.redBox {
+	width: 17.7rem;
+	height: 22.025rem;
+	position: absolute;
+	top: 6rem;
+	left: 50%;
+	margin-left: -8.85rem;
+	background: url(../img/redBao.png)no-repeat;
+	background-size: 100%;
+	animation: redGo 1.5s linear infinite;
+	display: none;
+}
+@keyframes redGo{
+	 0% {
+		 transform: translate(0,0);
+		 opacity: 1;
+	 }
+	 25% {
+		 transform: translate(-10px,5px);
+		 opacity: .8;
+	 }
+	 50% {
+		 transform: translate(-6px,7px);
+		 opacity: .5;
+	 }
+	 100% {
+		 transform: translate(-8px,4px);
+		 opacity: 0;
+	 }
+}
+.jinBox {
+	width:13rem;
+	height: 16.125rem;
+	position: absolute;
+	top: 7.9rem;
+	left: 50%;
+	margin-left: -6.5rem;
+	background: url(../img/jinbi.png) no-repeat;
+	background-size: 100%;
+	animation: jinGo 1.5s ease infinite;
+	display: none;
+}
+@keyframes jinGo{
+	from{transform: scale(0);}
+	to{transform: scale(1.2);}
+}
+.baoBox {
+	width: 7.875rem;
+	height: 7.975rem;
+	position: absolute;
+	top: 7.3rem;
+	left: 50%;
+	margin-left: -3.9375rem;
+	background-image: url(../img/baoxiang2.png);
+	background-repeat: no-repeat;
+  background-size: 100%;
+	
+}
+/* .baoxiangGo {
+	animation: baoLetGo 2s linear infinite;
+}
+@keyframes baoLetGo{
+	from{background-image: url(../img/baoxiang1.png);background-size: 100%;}
+	
+	to{background-image: url(../img/baoxiang1.png);background-size: 100%;}
+} */
+.close-btns {
+	display: block;
+	text-align: center;
+	position: absolute;
+	font-size: 1.6rem;
+	z-index: 1000;
+	width: 1.5rem;
+	height: 1.5rem;
+	background: url(https://hdggcdn.bayimob.com/hdggstatic/yaoyiyao/close.png);
+	background-size: 100% 100%;
+	top: 3rem;
+  right: 1rem;
+}
+.imgUrl {
+	  width: 12.76rem;
+    height: 6.3rem;
+    position: absolute;
+    top: 13rem;
+    left: 50%;
+    margin-left: -6.353rem;
+		z-index: 2;
+     
+}
+.imgUrl>img {
+	width: 100%;
+	height: 100%;
+	z-index: 2;
+}
+.txt {
+	  width: 100%;
+    height: 1rem;
+    position: absolute;
+    top: 20.4rem;
+    text-align: center;
+    font-size: .8rem;
+    color: #fff;
+}
+.linGo {
+	width: 4.35rem;
+	height: 4.425rem;
+	position: absolute;
+	top: 22rem;
+	left: 50%;
+	margin-left: -2.175rem;
+	background: url(../img/linBtn.png) no-repeat;
+	background-size: 100%;
+	z-index: 2;
+	animation: linGo .8s linear infinite;
+	-webkit-animation: linGo .8s linear infinite;
+}
+@keyframes linGo{
+	 0% {
+		 transform: scale(1);
+	 }
+	 25% {
+		 transform: scale(1.1);
+	 }
+	 50% {
+		 transform: scale(1.2);
+	 }
+	 75% {
+		 transform: scale(1.1);
+	 }
+	 100% {
+		 transform: scale(1);
+	 }
+}
+@-webkit-keyframes linGo{
+	0% {
+		-webkit-transform: scale(1);
+	}
+	25% {
+		-webkit-transform: scale(1.1);
+	}
+	50% {
+		-webkit-transform: scale(1.2);
+	}
+	75% {
+		-webkit-transform: scale(1.1);
+	}
+	100% {
+		-webkit-transform: scale(1);
+	}
+}

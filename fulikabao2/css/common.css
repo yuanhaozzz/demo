@@ -1,0 +1,369 @@
+body,
+ul,
+ol,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+table,
+td,
+img,
+div {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+#hdgg-left-float-image{
+  top: 2.2rem!important;
+}
+/*#hdgg_redpack {*/
+/*display: none !important;*/
+/*}*/
+body {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  /*background: #fbfbfa url(https://hdggcdn.bayimob.com/hdggstatic/dazhuanpan18/bg.jpg) no-repeat;*/
+  /*background-size: 100%;*/
+  color: #333;
+  font-size: 12px;
+  font-family: "Microsoft YaHei";
+  overflow-x: hidden;
+  height: 100%;
+  background-color: #6d58fd;
+}
+
+.jiang {
+  position: absolute;
+  right: 0.5rem;
+  top: 0.5rem;
+  width: 2.5rem;
+  height: 0.95rem;
+  text-align: center;
+  font-size: 0.65rem;
+  z-index: 1;
+  background: url(https://hdggcdn.bayimob.com/hdggstatic/dazhuanpan3/prize.png) no-repeat;
+  background-size: 100% 100%;
+}
+
+/* .rule {
+position: absolute;
+left: 0.5rem;
+top: 0.5rem;
+width: 2.5rem;
+height: 0.9rem;
+text-align: center;
+font-size: 0.65rem;
+z-index: 1;
+background: url(https://hdggcdn.bayimob.com/hdggstatic/dazhuanpan6/rule.png) no-repeat;
+background-size: 100% 100%;
+}
+ */
+.bg {
+  background: #4ca110 url(https://hdggcdn.bayimob.com/hdggstatic/fulikabao/bg.png) no-repeat center center;
+  background-size: 100%;
+  width: 100%;
+  height: 30.15rem;
+}
+
+@keyframes rotate_card {
+  0% {
+    transform: rotate(0deg);
+    transform-origin: bottom right;
+  }
+  100% {
+    transform: rotate(120deg);
+    transform-origin: bottom right;
+  }
+}
+
+/*@-webkit-keyframes rotate_card {*/
+/*0% {*/
+/*transform: rotate(0deg);*/
+/*transform-origin: bottom right;*/
+/*}*/
+/*100% {*/
+/*transform: rotate(120deg);*/
+/*transform-origin: bottom right;*/
+/*}*/
+/*}*/
+
+/*@keyframes rotate_btn {*/
+/*0% {*/
+/*transform: rotate(5deg)*/
+/*}*/
+/*100% {*/
+/*transform: rotate(-5deg)*/
+/*}*/
+/*}*/
+
+/*@-webkit-keyframes rotate_btn {*/
+/*0% {*/
+/*transform: rotate(5deg)*/
+/*}*/
+/*100% {*/
+/*transform: rotate(-5deg)*/
+/*}*/
+/*}*/
+@-webkit-keyframes skip {
+  from {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9)
+  }
+  100% {
+    -webkit-transform: scale(1.01);
+    transform: scale(1.01)
+  }
+}
+
+@keyframes skip {
+  from {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9)
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1)
+  }
+}
+
+.in {
+  transform: rotateY(0deg);
+  -webkit-transform: rotateY(0deg);
+  transform-origin: center center;
+  -webkit-transform-origin: center center;
+}
+
+.out {
+  transform: rotateY(-360deg);
+  -webkit-transform: rotateY(-360deg);
+  transform-origin: center center;
+  -webkit-transform-origin: center center;
+}
+
+.banner .paibgm1.in {
+  position: absolute;
+  top: 6rem;
+  left: 50%;
+  margin-left: -50%;
+  text-align: center;
+  background-image: url(https://hdggcdn.bayimob.com/hdggstatic/fulikabao/back.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100%;
+  width: 100%;
+  height: 10.525rem;
+  z-index: 3;
+  transition: 0.5s all;
+}
+
+.banner .paibgm1.out {
+  position: absolute;
+  top: 5.5rem;
+  left: 50%;
+  margin-left: -50%;
+  text-align: center;
+  background-image: url(https://hdggcdn.bayimob.com/hdggstatic/fulikabao/back.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100%;
+  width: 100%;
+  height: 10.525rem;
+  z-index: 3;
+  transition: 0.5s all;
+}
+
+.banner .paibgm2.in {
+  position: absolute;
+  top: 4.5rem;
+  left: 50%;
+  margin-left: -47%;
+  text-align: center;
+  background: url(https://hdggcdn.bayimob.com/hdggstatic/fulikabao/back.png) no-repeat center center;
+  background-size: 100%;
+  width: 94%;
+  height: 10.525rem;
+  z-index: 2;
+  opacity: 0.6;
+  transition: 0.5s all;
+}
+
+.banner .paibgm2.out {
+  position: absolute;
+  top: 5rem;
+  left: 50%;
+  margin-left: -47%;
+  text-align: center;
+  background: url(https://hdggcdn.bayimob.com/hdggstatic/fulikabao/back.png) no-repeat center center;
+  background-size: 100%;
+  width: 94%;
+  height: 10.525rem;
+  z-index: 2;
+  opacity: 0.6;
+  transition: 0.5s all;
+}
+
+.banner .paibgm3.in {
+  position: absolute;
+  top: 3rem;
+  left: 50%;
+  margin-left: -43%;
+  text-align: center;
+  background: url(https://hdggcdn.bayimob.com/hdggstatic/fulikabao/back.png) no-repeat center center;
+  background-size: 100%;
+  width: 86%;
+  height: 10.525rem;
+  z-index: 1;
+  opacity: 0.2;
+  transition: 0.5s all;
+}
+
+.banner .paibgm3.out {
+  position: absolute;
+  top: 4rem;
+  left: 50%;
+  margin-left: -43%;
+  text-align: center;
+  background: url(https://hdggcdn.bayimob.com/hdggstatic/fulikabao/back.png) no-repeat center center;
+  background-size: 100%;
+  width: 86%;
+  height: 10.525rem;
+  z-index: 1;
+  opacity: 0.2;
+  transition: 0.5s all;
+}
+
+.rotate_card {
+  animation: rotate_card 0.8s linear;
+  -webkit-animation: rotate_card 0.8s linear;
+}
+
+.adBanner img {
+  margin-top: 1.35rem;
+  border-radius: 0.5rem;
+  width: 86%;
+}
+
+.botLogo {
+  position: absolute;
+  top: 28rem;
+  left: 50%;
+  margin-left: -1.425rem;
+}
+
+.botLogo img {
+  width: 2.85rem;
+  height: 0.7rem;
+}
+
+.box {
+  position: relative;
+  /*display: none;*/
+}
+
+.zheAll {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /*background: rgba(0, 0, 0, .1);*/
+}
+
+.zheAll img {
+  width: 5.2rem;
+  height: 5.2rem;
+  margin: 36%;
+}
+
+.circle {
+  width: 5rem;
+  height: 5rem;
+  position: absolute;
+  border-radius: 50%;
+  background: #0cc;
+  top: 30%;
+  left: 50%;
+  margin-left: -2.5rem;
+}
+
+.mask {
+  width: 3.75rem;
+  height: 3.75rem;
+  border-radius: 50%;
+  left: 0.625rem;
+  top: 0.625rem;
+  background: #fff;
+  position: absolute;
+  text-align: center;
+  line-height: 3.75rem;
+  font-size: 0.4rem;
+}
+
+.btn1 {
+  position: absolute;
+  top: 19.5rem;
+  left: 50%;
+  margin-left: -6.5rem;
+}
+
+.hot-logo {
+  position: absolute;
+  top: 16.8rem;
+  width: 100%;
+  text-align: center;
+  font-size: 0.75rem;
+}
+
+.add_rotate {
+  -webkit-animation: skip .3s linear infinite alternate;
+  animation: skip .3s linear infinite alternate;
+}
+
+.getFree {
+  display: inline-block;
+  text-align: center;
+  background: url(https://hdggcdn.bayimob.com/hdggstatic/fulikabao/getPrize1.png) no-repeat center center;
+  background-size: 100%;
+  width: 13rem;
+  height: 3.25rem;
+  line-height: 2.25rem;
+  color: #fff;
+  font-size: 0.8rem;
+  -webkit-animation: skip .25s linear infinite alternate;
+  animation: skip .25s linear infinite alternate;
+}
+
+.getMore {
+  text-align: center;
+  position: absolute;
+  top: 22.5rem;
+  left: 50%;
+  margin-left: -6.5rem;
+}
+
+.getMore img {
+  width: 13rem;
+  height: 3.25rem;
+  line-height: 2.4rem;
+  border-radius: 1rem;
+  color: #fff;
+  font-size: 0.8rem;
+  border: none !important;
+}
+
+.bodybuttom {
+    position: absolute;
+    width: 100%;
+    height: 1rem;
+    left: 0;
+    top: 29rem;
+    text-align: center;
+	  color: #fff;
+	}

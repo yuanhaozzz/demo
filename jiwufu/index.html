@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="Cache-Control" content="no-transform">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="layoutmode" content="standard">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="renderer" content="webkit">
+  <title>锦鲤跃龙门</title>
+</head>
+<body>
+<div class="bodydiv">
+  <!-- <div id="init">
+    <div class="init">
+      <span>玩转五款游戏</span><br>
+      <span>集齐锦鲤，必得现金红包</span>
+      <!--<span>瓜分20万现金 活动截止</span>-->
+   <!-- </div>
+  </div> --> 
+  <div id="alertNoNum">
+    <div class="alertNoNum">
+      <span>机会用完啦！<br>点击下方福卡切换游戏</span>
+    </div>
+  </div>
+  <div id="getFu">
+    <div class="luckTxt"><span>恭喜您获得<span class="whichFu"></span></span></div>
+    <img src="https://hdggcdn.bayimob.com/hdggstatic/jiwufu/fuzi.png">
+    <div class="closeFu"></div>
+  </div>
+  <div class="rule"></div>
+  <div class="jiang"></div>
+  <div id="list">
+		
+    <ul id="successList"></ul>
+  </div>
+  <div id="wrap">
+		<div class="juanzhou"></div>
+    <ul id="content">
+      <li class="show">
+        <div class="game1">
+          <div class="baodi">
+						<div class="person"></div>
+						<div class="fudai1"></div>
+						<div class="baoxiang1"></div>
+						<div class="jindai1"></div>
+						<div class="jindai2"></div>
+						<div class="fudai2"></div>
+						<div class="baoxiang2"></div>
+						<div class="btn"></div>
+						<div class="hand"></div>
+						<div class="tongs">
+							<div class="line">
+								<div class="zhuazi"></div>
+								
+							</div>
+						</div>
+						
+					</div>
+        </div>
+      </li>
+      <li class="show" style="display: none;">
+        <div class="game2">
+          <div class="bianBox"></div>
+          <div class="banner">
+            <div class="turnplate">
+              <img id="pointer" class="pointer" src="https://hdggcdn.bayimob.com/hdggstatic/dazhuanpan18/start.png"/>
+              <div class="bian active" id="circle"></div>
+              <div class="DB_guide">
+                <span class="DB_G_circle"></span>
+                <span class="DB_G_hand"></span>
+              </div>
+              <div class="zhe"></div>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="show" style="display: none;">
+        <div class="game3">
+          <div class="banner3">
+            <div class="paibgm init"></div>
+            <div class="paibgm init"></div>
+            <div class="paibgm init"></div>
+            <div class="paibgm init"></div>
+            <div class="paibgm init"></div>
+            <div class="paibgm init"></div>
+          </div>
+        </div>
+      </li>
+      <li class="show" style="display: none;">
+        <div class="game4">
+          <div class="chuizi rotateInit"></div>
+          <div id="danlists">
+            <ul id="danlist">
+              <li class="full"><span class="tip"></span></li>
+              <li class="full"><span class="tip"></span></li>
+              <li class="full"><span class="tip"></span></li>
+              <li class="full"><span class="tip"></span></li>
+              <li class="full"><span class="tip"></span></li>
+              <li class="full"><span class="tip"></span></li>
+            </ul>
+          </div>
+          <div class="clear"></div>
+        </div>
+      </li>
+      <li class="show" style="display: none;">
+        <div class="game5">
+          <div class="saizi saizihuang"></div>
+          <div class="startBg2">
+            <div class="starta2"></div>
+          </div>
+        </div>
+      </li>
+    </ul>
+    <div id="botFu">
+      <div class="select select1">
+        <div class="commonNum"></div>
+      </div>
+      <div class="select select2 dou">
+        <div class="commonNum"></div>
+      </div>
+      <div class="select select3 dou">
+        <div class="commonNum"></div>
+      </div>
+      <div class="select select4 dou">
+        <div class="commonNum"></div>
+      </div>
+      <div class="select select5 dou">
+        <div class="commonNum"></div>
+      </div>
+    </div>
+    <div id="botFuZi">
+      <div class="fu_txt"><span>富强福</span></div>
+      <div class="fu_txt"><span>和谐福</span></div>
+      <div class="fu_txt"><span>友善福</span></div>
+      <div class="fu_txt"><span>爱国福</span></div>
+      <div class="fu_txt"><span>敬业福</span></div>
+    </div>
+  </div>
+  <!--<div class="starta"></div>-->
+  <!-- Swiper JS -->
+  <div class="alerty">
+    <div class="notice">
+      <div class="saclose"></div>
+      <h1 class="ntile1"></h1>
+      <div class="contant">
+        <p class="font14">参与活动即有机会获得幸运~每天抽奖机会8次免费。此活动为概率中奖，奖品数量有限，祝好运！</p>
+        <p>惊喜一：iPhone X</p>
+        <p>惊喜二：扫地机器人</p>
+        <p>惊喜三：九阳豆浆机</p>
+        <p>惊喜四：九阳榨汁机</p>
+        <p>惊喜五：幸运福袋</p>
+        <h1 class="title font14">重要声明：</h1>
+        <p>1.奖品将在活动结束后5-10个工作日安排发放，请耐心等待</p>
+        <p>2.优惠券类奖品的使用规则详见每个优惠券的介绍页</p>
+        <p>3.请兑换后仔细阅读使用教程</p>
+        <p>4.通过非法途径获得奖品的，主办方有权不提供奖品</p>
+        <div class="moresay">更多奖品说明<i></i></div>
+        <div class="moresayp">
+          <p>惊喜一：iPhone X，共5份，中奖概率为0.01%</p>
+          <p>惊喜二：扫地机器人，共25份，中奖概率为0.05%</p>
+          <p>惊喜三：九阳豆浆机，共35份，中奖概率为0.07%</p>
+          <p>惊喜四：九阳榨汁机，共45份，中奖概率为0.09%</p>
+          <p>惊喜五：幸运福袋，共300份，中奖概率为0.6%</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="zhenotice"></div>
+</div>
+
+<link rel="stylesheet" type="text/css" href="css/reset.css">
+<link rel="stylesheet" type="text/css" href="css/alertCommon.css"/>
+<link rel="stylesheet" type="text/css" href="css/common.css">
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="../hdgg.css"/>
+<script type="text/javascript" charset="utf-8" src="../hdgg.js"></script>
+<script type="text/javascript" src="js/awardRotate.js"></script>
+
+<script type="text/javascript" src="js/common.js"></script>
+
+
+</body>
+
+</html>

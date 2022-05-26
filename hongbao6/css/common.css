@@ -1,0 +1,557 @@
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  /*background-position: center;*/
+  width: 100%;
+  height: 30rem;
+  background: #3e2b47 url(https://hdggcdn.bayimob.com/hdggstatic/moneybj.jpg) no-repeat top left;
+  background-size: 100%;
+	padding-top: 1rem;
+}
+
+div {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+}
+
+.contantabc {
+  overflow-x: hidden;
+  overflow-y: auto;
+  width: 100%;
+  height: 32rem;
+  position: relative;
+}
+
+.active1 {
+  background: url(https://hdggcdn.bayimob.com/hdggstatic/moneybj1.jpg) no-repeat top left;
+  background-size: 100%;
+}
+
+#start.active2 {
+  background: url(https://hdggcdn.bayimob.com/hdggstatic/moneystart1.png) no-repeat top left;
+  background-size: 100%;
+}
+
+.couten {
+  position: absolute;
+  left: 1rem;
+  margin: 0 auto;
+  top: 7rem;
+  width: 90%;
+  height: 25rem;
+  overflow: hidden;
+  overflow-y: hidden;
+  z-index: 2;
+}
+
+.couten li {
+  position: absolute;
+  animation: all 3s linear;
+  top: -100px;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.couten li a {
+  display: inline-block;
+}
+
+.couten li a img {
+  display: inline-block;
+}
+
+.backward {
+  width: 100%;
+  opacity: 1;
+  position: absolute;
+  display: none;
+  z-index: 3;
+  top: 45%;
+  left: 0;
+}
+
+.backward span {
+  display: inline-block;
+  width: 5.0rem;
+  height: 5.0rem;
+  color: #fde624;
+  font-weight: bold;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  text-align: center;
+  line-height: 10rem;
+  font-size: 6.0rem;
+}
+
+.count {
+  position: absolute;
+  top: 14.25rem;
+  left: 50%;
+  margin-left: -3rem;
+  z-index: 2;
+  /*display: block;*/
+  text-align: center;
+  width: 5rem;
+  padding: 0.15rem 0.5rem;
+  font-size: 0.6rem;
+  height: 1rem;
+  line-height: 1rem;
+  border-radius: 1rem;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.3);
+  display: none;
+}
+
+#foot {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 4;
+  display: block;
+  width: 100%;
+  height: 3.55rem;
+}
+
+#start {
+  position: absolute;
+  width: 3.5rem;
+  height: 3.5rem;
+  top: 18.25rem;
+  left: 7.6rem;
+  z-index: 3;
+  background: url(https://hdggcdn.bayimob.com/hdggstatic/moneystart.png) no-repeat top left;
+  background-size: 100%;
+}
+
+.startlv {
+  position: absolute;
+  width: 6.4rem;
+  height: 6.4rem;
+  top: 16.65rem;
+  left: 6.1rem;
+  z-index: 2;
+  background: url(https://hdggcdn.bayimob.com/hdggstatic/meneyguang.png) no-repeat top left;
+  background-size: 100%;
+  animation: scale 3s linear infinite;
+  -webkit-animation: scale 3s linear infinite;
+  -moz-animation: scale 3s linear infinite;
+  -o-animation: scale 3s linear infinite;
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.4);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@-webkit-keyframes scale {
+  0% {
+    -webkit-transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.4);
+  }
+  100% {
+    -webkit-transform: scale(1);
+  }
+}
+
+@-moz-keyframes scale {
+  0% {
+    -moz-transform: scale(1);
+  }
+  50% {
+    -moz-transform: scale(1.4);
+  }
+  100% {
+    -moz-transform: scale(1);
+  }
+}
+
+@-o-keyframes scale {
+  0% {
+    -o-transform: scale(1);
+  }
+  50% {
+    -o-transform: scale(1.4);
+  }
+  100% {
+    -o-transform: scale(1);
+  }
+}
+
+#rule, #prize {
+  position: absolute;
+  bottom: 1rem;
+  width: 3.0rem;
+  height: 2.8rem;
+}
+
+#rule {
+  left: 0.5rem;
+  background: url(https://hdggcdn.bayimob.com/hdggstatic/moneyrule.png) no-repeat top left;
+  background-size: 100% 100%;
+}
+
+#prize {
+  right: 0.5rem;
+  background: url(https://hdggcdn.bayimob.com/hdggstatic/moneyprize.png) no-repeat top left;
+  background-size: 100% 100%;
+}
+
+.alerty {
+  position: absolute;
+  top: 5.0rem;
+  left: 0;
+  display: none;
+  z-index: 6;
+  margin-top: 0.5rem;
+  margin-bottom: 0.9rem;
+  margin-right: 1.375rem;
+  margin-left: 1.375rem;
+  background: #fff;
+  border-radius: 0.75rem;
+}
+
+.saclose {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  z-index: 3;
+  width: 1rem;
+  height: 1rem;
+  background: url(https://hdggcdn.bayimob.com/hdggstatic/hdgg_close.png) 0 0 no-repeat;
+  background-size: contain;
+}
+
+.zhenotice {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+  background: rgba(0, 0, 0, 0.4)
+}
+
+.rule {
+  position: absolute;
+  left: 0rem;
+  top: 0.5rem;
+  width: 3.9rem;
+  height: 1.15rem;
+  line-height: 1.15rem;
+  text-align: center;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  font-size: 0.65rem;
+  z-index: 1;
+  background: #ffce20;
+  color: #be7e24;
+}
+
+.notice {
+  position: relative;
+  padding-bottom: 0.5rem;
+}
+
+.moresay {
+  background: #fd6918;
+  color: #fff;
+  width: 80%;
+  height: 1.5rem;
+  margin: 0 auto;
+  font-size: 0.6rem;
+  text-align: center;
+  line-height: 1.5rem;
+}
+
+.moresay i {
+  display: inline-block;
+  width: .4rem;
+  height: .4rem;
+  margin-left: .3rem;
+  transition: all .3s ease-in-out;
+  -webkit-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+  -webkit-transform-origin: .15rem .15rem;
+  transform-origin: .15rem .15rem;
+  vertical-align: middle;
+  border: 1px solid transparent;
+  border-top-color: #fff;
+  border-left-color: #fff;
+}
+
+.activeadv i {
+  -webkit-transform: rotate(-315deg);
+  transform: rotate(-315deg);
+}
+
+.moresayp {
+  display: none;
+  padding-top: 1.0rem;
+}
+
+.notice h1 {
+  font-size: 0.8rem;
+  line-height: 1rem;
+  margin-top: 0.5rem;
+  color: #440d00;
+  text-align: center;
+  font-weight: normal;
+}
+
+.notice h1.ntile1 {
+  height: 3.5rem;
+  border-top-right-radius: 0.75rem;
+  border-top-left-radius: 0.75rem;
+  margin-top: 0;
+  background: url(https://hdggcdn.bayimob.com/hdggstatic/activenotice.jpg) no-repeat;
+  background-size: 100% 100%;
+}
+
+.notice h1.title {
+
+  color: #440d00;
+  text-align: left;
+  margin-top: 0.5rem;
+  margin-bottom: 0.25rem;
+}
+
+.notice h1 span {
+  width: 1.75rem;
+  height: 1px;
+  display: inline-block;
+  background: #440d00;
+  vertical-align: middle;
+}
+
+.notice h1 span:first-child {
+  margin-right: 0.4rem;
+}
+
+.notice h1 span:last-child {
+  margin-left: 0.4rem;
+}
+
+.notice .contant {
+  width: 85%;
+  height: 16rem;
+  margin: 0 auto;
+  padding: 0.5rem;
+  color: #440d00;
+  overflow: auto;
+}
+
+.notice .contant p {
+  line-height: 1rem;
+  font-size: 0.6rem;
+  margin-bottom: 0.25rem;
+}
+
+.notice .contant p.font14, .notice .contant h1.font14 {
+  font-size: 0.7rem;
+}
+
+.leftshou, .rightshou {
+  position: absolute;
+  top: 0;
+  width: 4.175rem;
+  height: 6.95rem;
+}
+
+.leftshou {
+  left: -1rem;
+  background: url(https://hdggcdn.bayimob.com/hdggstatic/moneyleft.png) no-repeat;
+  background-size: 100% 100%;
+  -webkit-animation: swinging 2s ease-in-out 0s infinite;
+  -moz-animation: swinging 2s ease-in-out 0s infinite;
+  animation: swinging 2s ease-in-out 0s infinite;
+  -webkit-transform-origin: 50% 100%;
+  -moz-transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
+}
+
+.rightshou {
+  right: -1rem;
+  background: url(https://hdggcdn.bayimob.com/hdggstatic/moneyright.png) no-repeat;
+  background-size: 100% 100%;
+  -webkit-animation: swinging1 2s ease-in-out 0s infinite;
+  -moz-animation: swinging1 2s ease-in-out 0s infinite;
+  animation: swinging1 2s ease-in-out 0s infinite;
+  -webkit-transform-origin: 50% 100%;
+  -moz-transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
+}
+
+@-webkit-keyframes swinging {
+  0% {
+    -webkit-transform: rotate(10deg);
+  }
+  50% {
+    -webkit-transform: rotate(-10deg);
+  }
+  100% {
+    -webkit-transform: rotate(10deg);
+  }
+}
+
+@-webkit-keyframes swinging1 {
+  0% {
+    -webkit-transform: rotate(-10deg);
+  }
+  50% {
+    -webkit-transform: rotate(10deg);
+  }
+  100% {
+    -webkit-transform: rotate(-10deg);
+  }
+}
+
+.title123 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 13.45rem;
+  width: 100%;
+  background: url(https://hdggcdn.bayimob.com/hdggstatic/qianghongbao-1.png) no-repeat;
+  background-size: 100% 100%;
+}
+
+.titlegai {
+  position: absolute;
+  left: 0;
+  top: -0.15rem;
+  height: 13.68rem;
+  width: 100%;
+  background: url(https://hdggcdn.bayimob.com/hdggstatic/qianghongbao-2.png) no-repeat;
+  background-size: 100% 100%;
+  z-index: 3;
+}
+
+.guang {
+  position: absolute;
+  display: none;
+  top: 6rem;
+  left: 0;
+  width: 18.75rem;
+  height: 24rem;
+  z-index: 2;
+  background: url(https://hdggcdn.bayimob.com/hdggstatic/guang-1.png) no-repeat;
+  -webkit-animation: guang 1s linear 0s infinite;
+  -moz-animation: guang 1s linear 0s infinite;
+  animation: guang 1s linear 0s infinite;
+  background-size: 100% 100%;
+/ / -webkit-transform-origin: 50 % 100 %;
+/ / -moz-transform-origin: 50 % 100 %;
+/ / transform-origin: 50 % 100 %;
+
+}
+
+@-webkit-keyframes guang {
+  0%, 100% {
+    background: url(https://hdggcdn.bayimob.com/hdggstatic/guang-1.png) no-repeat;
+    background-size: 100% 100%;
+  }
+  50% {
+    background: url(https://hdggcdn.bayimob.com/hdggstatic/guang-2.png) no-repeat;
+    background-size: 100% 100%;
+  }
+}
+
+#hdgg_show-tomorrow {
+  z-index: 4;
+}
+
+#hdgg_more_game_award {
+  z-index: 4;
+}
+
+.swiper-container {
+  position: relative;
+  width: 100%;
+  height: 5.3rem;
+  padding-top: 0.3rem;
+  background: #3f204a;
+  border-top: 2px solid #591874;
+}
+
+.swiper-title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2.45rem;
+  height: 2.8rem;
+  z-index: 2;
+  background: url(https://hdggcdn.bayimob.com/hdggstatic/swiper/shops_title.png) no-repeat;
+  background-size: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  height: 4rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.swiper-slide:nth-child(1) {
+  margin-left: 1.5rem;
+}
+
+.swiper-slide .imgf {
+  width: 3.25rem;
+  height: 3.25rem;
+  margin: 0 auto;
+  display: block;
+  border-radius: 0.5rem;
+  border: 3px solid #7d0000;
+}
+
+.swiper-slide p {
+  margin-top: 0.3rem;
+  width: 100%;
+  display: block;
+  color: #fff;
+  font-size: 0.6rem;
+}
+
+.swiper-slide:nth-child(1) .imgf {
+  background: #fff url(https://hdggcdn.bayimob.com/hdggstatic/swiper/hongbao2_200.png) no-repeat;
+  background-size: 100%;
+}
+
+.swiper-slide:nth-child(2) .imgf {
+  background: #fff url(https://hdggcdn.bayimob.com/hdggstatic/swiper/hongbao2_100.png) no-repeat;
+  background-size: 100%;
+}
+
+.swiper-slide:nth-child(3) .imgf {
+  background: #fff url(https://hdggcdn.bayimob.com/hdggstatic/swiper/hongbao2_66.png) no-repeat;
+  background-size: 100%;
+}
+
+.swiper-slide:nth-child(4) .imgf {
+  background: #fff url(https://hdggcdn.bayimob.com/hdggstatic/swiper/hongbao2_8.png) no-repeat;
+  background-size: 100%;
+}
+
+.swiper-slide:nth-child(5) .imgf {
+  background: #fff url(https://hdggcdn.bayimob.com/hdggstatic/swiper/hongbao2_fudai.png) no-repeat;
+  background-size: 100%;
+}
+
+.swiper-slide:nth-child(6) .imgf {
+  width: 0.5rem;
+  background: transparent;
+}
