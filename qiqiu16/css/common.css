@@ -1,0 +1,248 @@
+body {
+	background: #60d411;
+}
+.centers1 {
+	width: 18.75rem;
+	height: 30.15rem;
+	position: relative;
+	background: url(../img/bg.png) no-repeat;
+	background-size: 100%;
+}
+.jiangqu {
+	width: 17.825rem;
+	height: 5.825rem;
+	position: absolute;
+	top: 24rem;
+	left: 50%;
+	margin-left: -8.9125rem;
+	background: url(../img/jiangqu.png) no-repeat;
+	background-size: 100%;
+	z-index: 2;
+}
+.start {
+	width: 6.325rem;
+	height: 4.625rem;
+	position: absolute;
+	top: 20rem;
+	left: 50%;
+	margin-left: -3.1625rem;
+	background: url(../img/click.png) no-repeat;
+	background-size: 100%;
+	z-index: 1;
+}
+.counts {
+	width: 6.025rem;
+	height: 2.95rem;
+	position: absolute;
+	top: 17.6rem;
+	left: 50%;
+	margin-left: -3.0125rem;
+	background: url(../img/num.png) no-repeat;
+	background-size: 100%;
+	text-align: center;
+	line-height: 2.8rem;
+	color: #fb7c44;
+	font-size: .6rem;
+	 animation: countsGo 1.5s linear infinite;
+	  -webkit-animation: countsGo 1.5s linear infinite; 
+}
+@keyframes countsGo{
+	 0% {
+		  transform: translateY(0);
+	 }
+	 25% {
+		transform: translateY(-8px);
+	 }
+	 50% {
+		 transform: translateY(-16px);
+	 }
+	 75% {
+		 transform: translateY(-8px);
+	 }
+	 100% {
+		transform: translateY(0);
+	 }
+}
+ @-webkit-keyframes countsGo{
+	0% {
+		-webkit-transform: translateY(0);
+	}
+	25% {
+	-webkit-transform: translateY(-8px);
+	}
+	50% {
+		-webkit-transform: translateY(-16px);
+	}
+	75% {
+		-webkit-transform: translateY(-8px);
+	}
+	100% {
+	-webkit-transform: translateY(0);
+	}
+} 
+ 
+.hand {
+	width: 3.65rem;
+	height: 3.525rem;
+	position: absolute;
+	top: 20.5rem;
+	left: 69%;
+	margin-left: -1.825rem;
+	background: url(../img/hand.png) no-repeat;
+	background-size: 100%;
+	z-index: 2;
+}
+.rule {
+  position: absolute;
+  left: 0.5rem;
+  top: 0.55rem;
+  width: 2.5rem;
+  height: 0.9rem;
+  text-align: center;
+  font-size: 0.65rem;
+  z-index: 1;
+  background: url(https://hdggcdn.bayimob.com/hdggstatic/qiqiu2/rule2.png) no-repeat;
+  background-size: 100% 100%;
+}
+.notice {
+  position: relative;
+  padding-bottom: 0.5rem;
+  z-index: 3;
+}
+
+.notice h1 {
+  font-size: 0.8rem;
+  line-height: 1rem;
+  margin-top: 0.5rem;
+  color: #440d00;
+  text-align: center;
+  font-weight: normal;
+}
+
+.notice h1.ntile1 {
+  height: 3.5rem;
+  border-top-right-radius: 0.75rem;
+  border-top-left-radius: 0.75rem;
+  margin-top: 0;
+  background: url(https://hdggcdn.bayimob.com/hdggstatic/activenotice.jpg) no-repeat;
+  background-size: 100% 100%;
+}
+
+.notice h1.title {
+  color: #440d00;
+  text-align: left;
+  margin-top: 0.5rem;
+  margin-bottom: 0.25rem;
+}
+
+.notice h1 span {
+  width: 1.75rem;
+  height: 1px;
+  display: inline-block;
+  background: #440d00;
+  vertical-align: middle;
+}
+
+.notice h1 span:first-child {
+  margin-right: 0.4rem;
+}
+
+.notice h1 span:last-child {
+  margin-left: 0.4rem;
+}
+
+.notice .contant {
+  width: 85%;
+  height: 16rem;
+  margin: 0 auto;
+  padding: 0.5rem;
+  color: #440d00;
+  overflow: auto;
+}
+
+.notice .contant p {
+  line-height: 1rem;
+  font-size: 0.6rem;
+  margin-bottom: 0.25rem;
+}
+
+.notice .contant p.font14,
+.notice .contant h1.font14 {
+  font-size: 0.7rem;
+}
+
+.zhenotice {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  width: 100%;
+  height: 100%;
+  z-index: 4;
+  background: rgba(0, 0, 0, 0.4)
+}
+
+.alerty {
+  position: absolute;
+  top: 5.0rem;
+  left: 0;
+  display: none;
+  z-index: 5;
+  margin-top: 0.5rem;
+  margin-bottom: 0.9rem;
+  margin-right: 1.375rem;
+  margin-left: 1.375rem;
+  background: #fff;
+  border-radius: 0.75rem;
+}
+
+.saclose {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  z-index: 3;
+  width: 1.6em;
+  height: 1.6em;
+  background: url(https://hdggcdn.bayimob.com/hdggstatic/hdgg_close.png) 0 0 no-repeat;
+  background-size: contain;
+}
+
+/* .moresay {
+  background: #fd6918;
+  color: #fff;
+  width: 80%;
+  height: 1.5rem;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1.5rem;
+} */
+
+.moresayp {
+  display: none;
+  padding-top: 1.0rem;
+}
+
+.moresay i {
+  display: inline-block;
+  width: .4rem;
+  height: .4rem;
+  margin-left: .3rem;
+  transition: all .3s ease-in-out;
+  -webkit-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+  -webkit-transform-origin: .15rem .15rem;
+  transform-origin: .15rem .15rem;
+  vertical-align: middle;
+  border: 1px solid transparent;
+  border-top-color: #fff;
+  border-left-color: #fff;
+}
+.clickQiu {
+    width: 12rem;
+    height: 11rem;
+    position: absolute;
+    top: 5.8rem;
+    left: 50%;
+    margin-left: -6rem;
+    /* background: #000; */
+}

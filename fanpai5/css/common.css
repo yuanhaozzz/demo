@@ -1,0 +1,662 @@
+body,
+ul,
+ol,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+table,
+td,
+img,
+div {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  background: #f0e3d0;
+  color: #333;
+  /*font-size: 12px;*/
+  font-family: "Microsoft YaHei"
+}
+
+.bodydiv {
+  height: 23.5rem;
+  padding-top: 52%;
+  background: url(https://hdggcdn.bayimob.com/hdggstatic/liuyi/bg.jpg) no-repeat;
+  background-size: 100%;
+  overflow: hidden;
+}
+
+div {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+select,
+input,
+img,
+select {
+  vertical-align: middle;
+}
+
+input {
+  font-size: 12px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  color: #c00;
+  text-decoration: none;
+}
+
+.clear {
+  clear: both;
+}
+
+.swiper-container {
+  position: relative;
+  width: 17.5rem;
+  height: 6.25rem;
+  color: #fff;
+  margin-left: 2rem;
+  margin-top: 3.25rem;
+}
+
+.botBg {
+  position: absolute;
+  top: 30rem;
+  left: 0.75rem;
+  background-image: url(https://hdggcdn.bayimob.com/hdggstatic/liuyi/prizeBg.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100%;
+  width: 1.2rem;
+  height: 3rem;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 0.7rem;
+  height: 4.2rem;
+  margin-top: 0.85rem;
+  margin-bottom: 0.2rem;
+}
+
+.biao {
+  position: absolute;
+  top: 0rem;
+  left: 0;
+  width: 2.25rem;
+  height: 2.85rem;
+  background: url(https://hdggcdn.bayimob.com/hdggstatic/wufu/swipertitle.png) no-repeat;
+  background-size: 100%;
+  z-index: 2;
+}
+
+.swiper-slide div {
+  margin: 0 auto;
+  display: block;
+  width: 3rem;
+  height: 3rem;
+  /*border: 0.1rem solid #d23226;*/
+  /*border-radius: 0.5rem;*/
+}
+
+.swiper-slide p {
+  margin-top: 0.3rem;
+  color: #fff;
+  font-size: 0.6rem;
+}
+
+.swiper-slide:nth-child(1) {
+  margin-left: 0.5rem;
+}
+
+.swiper-slide:nth-child(1) div {
+  background: url(https://hdggcdn.bayimob.com/hdggstatic/liuyi/500.jpg) no-repeat center;
+  background-size: 100%;
+}
+
+.swiper-slide:nth-child(2) div {
+  background: url(https://hdggcdn.bayimob.com/hdggstatic/liuyi/300.jpg) no-repeat center;
+  background-size: 100%;
+}
+
+.swiper-slide:nth-child(3) div {
+  background: url(https://hdggcdn.bayimob.com/hdggstatic/liuyi/200.jpg) no-repeat center;
+  background-size: 100%;
+}
+
+.swiper-slide:nth-child(4) div {
+  background: url(https://hdggcdn.bayimob.com/hdggstatic/liuyi/100.jpg) no-repeat center;
+  background-size: 100%;
+}
+
+.couten {
+  position: absolute;
+  top: 1.8rem;
+  left: 0;
+  width: 100%;
+  height: 8.0rem;
+  overflow: hidden;
+}
+
+.couten li {
+  position: absolute;
+  animation: all 3s linear;
+  top: -100px;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.couten li a {
+  display: block;
+}
+
+.swiper-slide:nth-child(5) div {
+  background: url(https://hdggcdn.bayimob.com/hdggstatic/liuyi/fudai.jpg) no-repeat center;
+  background-size: 100%;
+}
+
+.swiper-slide:nth-child(6) div {
+  width: 0.5rem;
+  border: 0;
+  background: transparent;
+}
+
+.biaode {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 6.8rem;
+  height: 8.9rem;
+  z-index: 5;
+  transform-origin: 3.4rem 4.5rem;
+  -webkit-transform-origin: 3.4rem 4.5rem;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  -o-transition: all 0.5s ease-in-out 0s;
+  -moz-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+.zhuan_left {
+  transform-origin: 3.4rem 4.5rem;
+  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+}
+
+.zhuan_right {
+  transform-origin: 3.4rem 4.5rem;
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.zhuansi {
+  transition: all 1s ease-in-out 0s;
+  transform-origin: 3.4rem;
+  transform: scaleZ(-1);
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.banner {
+  display: block;
+  width: 17.5rem;
+  height: 14.35rem;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 1.8rem;
+}
+
+.banner .paibgm1 {
+  position: absolute;
+  width: 5.5rem;
+  height: 6.875rem;
+  transition: all .3s;
+  background: url(https://hdggcdn.bayimob.com/hdggstatic/liuyi/paizi.png) no-repeat;
+  background-size: 100%;
+}
+
+.banner .paibgm2 {
+  position: absolute;
+  width: 5.5rem;
+  height: 6.875rem;
+  transition: all .3s;
+  background: url(https://hdggcdn.bayimob.com/hdggstatic/liuyi/paizi2.png) no-repeat;
+  background-size: 100%;
+}
+
+.banner .paibgm.active {
+  -webkit-animation: rotate 1s linear infinite;
+  -moz-animation: rotate 1s linear infinite;
+  -o-animation: rotate 1s linear infinite;
+  animation: rotate 1s linear infinite;
+}
+
+@-webkit-keyframes rotate {
+  from {
+    -webkit-transform: scale(1)
+  }
+  to {
+    -webkit-transform: scale(1.1)
+  }
+}
+
+@-moz-keyframes rotate {
+  from {
+    -moz-transform: scale(1)
+  }
+  to {
+    -moz-transform: scale(1.1)
+  }
+}
+
+@-o-keyframes rotate {
+  from {
+    -o-transform: scale(1)
+  }
+  to {
+    -o-transform: scale(1.1)
+  }
+}
+
+@keyframes rotate {
+  from {
+    transform: scale(1)
+  }
+  to {
+    transform: scale(1.1)
+  }
+}
+
+.banner .paibgm:nth-child(1) {
+  top: 0.2rem;
+  left: 0.2rem;
+
+}
+
+.banner .paibgm:nth-child(2) {
+  top: 0.2rem;
+  left: 6.05rem;
+
+}
+
+.banner .paibgm:nth-child(3) {
+  top: 0.2rem;
+  left: 11.9rem;
+
+}
+
+.banner .paibgm:nth-child(4) {
+  top: 7.55rem;
+  left: 0.2rem;
+
+}
+
+.banner .paibgm:nth-child(5) {
+  top: 7.55rem;
+  left: 6.05rem;
+
+}
+
+.banner .paibgm:nth-child(6) {
+  top: 7.55rem;
+  left: 11.9rem;
+
+}
+
+.banner .paibgm.init {
+  top: 8rem;;
+  left: 11.9rem;
+}
+
+.more {
+  display: block;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 150px;
+}
+
+.cloud {
+  position: fixed;
+  left: 0;
+  top: 70%;
+  width: 150px;
+}
+
+.cloud2 {
+  position: fixed;
+  right: 0;
+  top: 32%;
+  width: 50px;
+}
+
+.cloud3 {
+  position: fixed;
+  left: 0;
+  top: 30%;
+  width: 100px;
+}
+
+@media screen and (max-width: 320px) {
+  .cloud {
+    position: fixed;
+    left: 0;
+    top: 70%;
+    width: 150px;
+  }
+
+  .cloud2 {
+    position: fixed;
+    right: 0;
+    top: 30%;
+    width: 50px;
+  }
+
+  .cloud3 {
+    position: fixed;
+    left: 0;
+    top: 23%;
+    width: 100px;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 375px) {
+  .cloud {
+    position: fixed;
+    left: 0;
+    top: 72%;
+    width: 150px;
+  }
+
+  .cloud2 {
+    position: fixed;
+    right: 0;
+    top: 32%;
+    width: 50px;
+  }
+
+  .cloud3 {
+    position: fixed;
+    left: 0;
+    top: 25%;
+    width: 100px;
+  }
+}
+
+@media screen and (min-width: 376px) {
+  .cloud {
+    position: fixed;
+    left: 0;
+    top: 68%;
+    width: 150px;
+  }
+
+  .cloud2 {
+    position: fixed;
+    right: 0;
+    top: 32%;
+    width: 50px;
+  }
+
+  .cloud3 {
+    position: fixed;
+    left: 0;
+    top: 25%;
+    width: 100px;
+  }
+}
+
+@media screen and (max-height: 480px) {
+  .cloud {
+    position: fixed;
+    left: 0;
+    top: 81%;
+    width: 150px;
+  }
+
+  .cloud2 {
+    position: fixed;
+    right: 0;
+    top: 35%;
+    width: 50px;
+  }
+
+  .cloud3 {
+    position: fixed;
+    left: 0;
+    top: 27%;
+    width: 100px;
+  }
+}
+
+#mark {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+.red-img {
+  position: fixed;
+  top: 10%;
+  left: 5%;
+  width: 90%;
+}
+
+/*.piao{*/
+/*position: absolute;*/
+/*right: 1.85rem;*/
+/*top: .1rem;*/
+/*width: 1.25rem;*/
+/*height: 1.55rem;*/
+/*background: url(https://hdggcdn.bayimob.com/hdggstatic/fanpai3/piaoyezi3.png) no-repeat;*/
+/*background-size: 100%;*/
+/*}*/
+.rule {
+  position: absolute;
+  left: 0.5rem;
+  top: 0.5rem;
+  width: 2.2rem;
+  height: 0.8rem;
+  text-align: center;
+  font-size: 0.65rem;
+  z-index: 1;
+  background: url(https://hdggcdn.bayimob.com/hdggstatic/laodongjie/rule.png) no-repeat;
+  background-size: 100% 100%;
+}
+
+.counts {
+  position: absolute;
+  width: 100%;
+  height: 1.25rem;
+  line-height: 1.15rem;
+  text-align: center;
+  color: #9ddd53;
+  text-indent: 0.5rem;
+  font-size: 0.7rem;
+  top: 26.5rem;
+}
+
+.jiang {
+  position: absolute;
+  right: 0.5rem;
+  top: 0.5rem;
+  width: 2.2rem;
+  height: 0.8rem;
+  text-align: center;
+  font-size: 0.65rem;
+  z-index: 1;
+  background: url(https://hdggcdn.bayimob.com/hdggstatic/laodongjie/prize.png) no-repeat;
+  background-size: 100% 100%;
+}
+
+.notice {
+  position: relative;
+  padding-bottom: 0.5rem;
+  z-index: 3;
+}
+
+.notice h1 {
+  font-size: 0.8rem;
+  line-height: 1rem;
+  margin-top: 0.5rem;
+  color: #440d00;
+  text-align: center;
+  font-weight: normal;
+}
+
+.notice h1.ntile1 {
+  height: 3.5rem;
+  border-top-right-radius: 0.75rem;
+  border-top-left-radius: 0.75rem;
+  margin-top: 0;
+  background: url(https://hdggcdn.bayimob.com/hdggstatic/activenotice.jpg) no-repeat;
+  background-size: 100% 100%;
+}
+
+.notice h1.title {
+  color: #440d00;
+  text-align: left;
+  margin-top: 0.5rem;
+  margin-bottom: 0.25rem;
+}
+
+.notice h1 span {
+  width: 1.75rem;
+  height: 1px;
+  display: inline-block;
+  background: #440d00;
+  vertical-align: middle;
+}
+
+.notice h1 span:first-child {
+  margin-right: 0.4rem;
+}
+
+.notice h1 span:last-child {
+  margin-left: 0.4rem;
+}
+
+.notice .contant {
+  width: 85%;
+  height: 16rem;
+  margin: 0 auto;
+  padding: 0.5rem;
+  color: #440d00;
+  overflow: auto;
+}
+
+.notice .contant p {
+  line-height: 1rem;
+  font-size: 0.6rem;
+  margin-bottom: 0.25rem;
+}
+
+.notice .contant p.font14,
+.notice .contant h1.font14 {
+  font-size: 0.7rem;
+}
+
+.zhenotice {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  width: 100%;
+  height: 100%;
+  z-index: 4;
+  background: rgba(0, 0, 0, 0.4)
+}
+
+.alerty {
+  position: absolute;
+  top: 5.0rem;
+  left: 0;
+  display: none;
+  z-index: 5;
+  margin-top: 0.5rem;
+  margin-bottom: 0.9rem;
+  margin-right: 1.375rem;
+  margin-left: 1.375rem;
+  background: #fff;
+  border-radius: 0.75rem;
+}
+
+.saclose {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  z-index: 3;
+  width: 1.6em;
+  height: 1.6em;
+  background: url(https://hdggcdn.bayimob.com/hdggstatic/hdgg_close.png) 0 0 no-repeat;
+  background-size: contain;
+}
+
+.moresay {
+  background: #fd6918;
+  color: #fff;
+  width: 80%;
+  height: 1.5rem;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1.5rem;
+}
+
+.moresayp {
+  display: none;
+  padding-top: 1.0rem;
+}
+
+.moresay i {
+  display: inline-block;
+  width: .4rem;
+  height: .4rem;
+  margin-left: .3rem;
+  transition: all .3s ease-in-out;
+  -webkit-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+  -webkit-transform-origin: .15rem .15rem;
+  transform-origin: .15rem .15rem;
+  vertical-align: middle;
+  border: 1px solid transparent;
+  border-top-color: #fff;
+  border-left-color: #fff;
+}
+
+.activeadv i {
+  -webkit-transform: rotate(-315deg);
+  transform: rotate(-315deg);
+}
+
+#hdgg_show-win {
+  padding-left: 0;
+  margin-left: 0.2rem;
+}
+
+#hdgg_more_game_award {
+  z-index: 3;
+}

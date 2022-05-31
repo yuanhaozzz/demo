@@ -1,0 +1,355 @@
+body {
+  background: #5fd57f;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+}
+.number{
+  position: absolute;
+  top: 6.3rem;
+  text-align: center;
+  width: 100%;
+  font-size: 0.75rem;
+  color: #fff;
+}
+.rule {
+  position: absolute;
+	left: 0.5rem;
+	top: 0.55rem;
+	width: 2.25rem;
+	height: 2.25rem;
+	text-align: center;
+	font-size: 0.65rem;
+	z-index: 1;
+  background: url(../img/rule.png) no-repeat center;
+  background-size: 100% 100%;
+}
+.alerty {
+  position: absolute;
+  top: 5.0rem;
+  left: 0;
+  display: none;
+  z-index: 15;
+  margin-top: 0.5rem;
+  margin-bottom: 0.9rem;
+  margin-right: 1.375rem;
+  margin-left: 1.375rem;
+  background: #fff;
+  border-radius: 0.75rem;
+}
+.notice {
+  position: relative;
+  padding-bottom: 0.5rem;
+}
+
+.notice h1 {
+  font-size: 0.8rem;
+  line-height: 1rem;
+  margin-top: 0.5rem;
+  color: #440d00;
+  text-align: center;
+  font-weight: normal;
+}
+
+.notice h1.ntile1 {
+  height: 3.5rem;
+  border-top-right-radius: 0.75rem;
+  border-top-left-radius: 0.75rem;
+  margin-top: 0;
+  background: url(https://hdggcdn.bayimob.com/hdggstatic/activenotice.jpg) no-repeat;
+  background-size: 100% 100%;
+}
+
+.notice h1.title {
+
+  color: #440d00;
+  text-align: left;
+  margin-top: 0.5rem;
+  margin-bottom: 0.25rem;
+}
+
+.notice h1 span {
+  width: 1.75rem;
+  height: 1px;
+  display: inline-block;
+  background: #440d00;
+  vertical-align: middle;
+}
+
+.notice h1 span:first-child {
+  margin-right: 0.4rem;
+}
+
+.notice h1 span:last-child {
+  margin-left: 0.4rem;
+}
+
+.notice .contant {
+  width: 85%;
+  height: 16rem;
+  margin: 0 auto;
+  padding: 0.5rem;
+  color: #440d00;
+  overflow: auto;
+}
+
+.notice .contant p {
+  line-height: 1rem;
+  font-size: 0.6rem;
+  margin-bottom: 0.25rem;
+}
+
+.notice .contant p.font14, .notice .contant h1.font14 {
+  font-size: 0.7rem;
+}
+.zhenotice {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  width: 100%;
+  height: 100%;
+  z-index: 4;
+  background: rgba(0, 0, 0, 0.5)
+}
+
+
+#hdgg_more_game_award{
+	z-index: 3;
+}
+#contant {
+  position: relative;
+  width: 18.75rem;
+  margin: 0 auto;
+  background: url(../img/item_bg.jpg) no-repeat;
+  background-size: 100%;
+  height: 30.15rem;
+  padding-bottom: 0.9rem;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.price {
+  position: absolute;
+  right: 0.5rem;
+  top: 0.5rem;
+  width: 2.25rem;
+  height: 2.25rem;
+  text-align: center;
+  font-size: 0.65rem;
+  z-index: 2;
+  background: url(../img/prize.png) center no-repeat;
+  background-size: 100% 100%;
+}
+
+.chuizi {
+  position: fixed;
+  right: -4rem;
+  top: 7rem;
+  width: 3.9rem;
+  height: 4.3rem;
+  z-index: 3;
+  background-image: url(../img/item_tools.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	/* transform: rotate(-30deg) */
+}
+.item_start{
+	/* transform: rotate(-30deg); */
+	-webkit-animation: start 1s 0s 1;
+					animation: start 1s 0s 1;
+	-webkit-animation-fill-mode:forwards;
+					animation-fill-mode:forwards;
+}
+.item_start{
+	-webkit-animation: start 1s 0s 1;
+					animation: start 1s 0s 1;
+	-webkit-animation-fill-mode:forwards;
+					animation-fill-mode:forwards;
+}
+@keyframes start{
+	0% {
+		-webkit-transform: rotate(0deg);
+		        transform: rotate(0deg);
+	}
+	25% {
+		-webkit-transform: rotate(-30deg);
+		        transform: rotate(-30deg);
+	}
+	50% {
+		-webkit-transform: rotate(0deg);
+		        transform: rotate(0deg);
+	}
+	75% {
+		-webkit-transform: rotate(-30deg);
+		        transform: rotate(-30deg);
+	}
+	100% {
+		-webkit-transform: rotate(0deg);
+		        transform: rotate(0deg);
+	}
+}
+.chuizi img{
+	margin-top: 3rem;
+	margin-left: -0.9rem;
+}
+.shui {
+	  width: 2.35rem;
+    height: 2.525rem;
+    position: absolute;
+    top: 0.5rem;
+    left: -2rem;
+    background: url(https://hdggcdn.bayimob.com/hdggstatic/zadan21/woter1.gif) no-repeat;
+    background-size: 100%;
+    z-index: 10;
+     display: none; 
+    -ms-transform-origin: right; 
+        transform-origin: right;
+		-webkit-transform-origin: right;
+}
+.saclose {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  z-index: 3;
+  width: 1.6em;
+  height: 1.6em;
+  background: url(https://hdggcdn.bayimob.com/hdggstatic/hdgg_close.png) 0 0 no-repeat;
+  background-size: contain;
+}
+#hdgg-left-float-image {
+	top: 5.2rem;
+}
+#danlists{
+  width: 100%;
+  margin-top: 9rem;
+}
+#danlists ul{
+  padding-left: 2.4rem;
+}
+#danlists ul li{
+  text-align: center;
+  margin-bottom: 1.4rem;
+  position: relative;
+  width: 5.5rem;
+  height: 3.65rem;
+  display: inline-block;
+  vertical-align: top;
+  display: inline-flex;
+  align-items: flex-end;
+  justify-content:center;
+  z-index: 2;
+}
+#danlists ul li.hide img{
+  width: 3.875rem;
+  margin-bottom: -0.35rem;
+}
+#danlists ul li.left{
+  margin-left: -1.45rem;
+}
+#danlists ul li.broken{
+  text-align: center;
+  display: inline-flex;
+  align-items: flex-end;
+  justify-content:center
+}
+#danlists ul li.broken img{
+  width: 3.875rem;
+  margin-bottom: -0.35rem;
+  
+}
+#danlists ul li.beat::after,#danlists ul li.beat1::after{
+  content: "";
+  background: red;
+  width: 1.5rem;
+  height: 1rem;
+  position: absolute;
+  top: -0.8rem;
+  right: -1rem;
+  z-index: 2;
+  background: url(../img/tips.png) center no-repeat;
+  background-size: 100% 100%;
+}
+.beat {
+  -webkit-animation: beat .5s linear 0s 2 alternate;
+  -moz-animation: beat .5s linear 0s 2 alternate;
+  -ms-animation: beat .5s linear 0s 2 alternate;
+  -o-animation: beat .5s linear 0s 2 alternate;
+  animation: beat .5s linear 0s 2 alternate
+}
+@keyframes beat {
+  from {
+    transform: translateY(0)
+  }
+  to {
+    transform: translateY(-15px)
+  }
+}
+.beat1 {
+  -webkit-animation: beat .5s infinite linear 0s alternate;
+  -moz-animation: beat .5s infinite linear 0s alternate;
+  -ms-animation: beat .5s infinite linear 0s alternate;
+  -o-animation: beat .5s infinite linear 0s alternate;
+  animation: beat .5s infinite linear 0s alternate
+}
+.animation_bag{
+  background: url(../img/animation_bag.png) center no-repeat;
+  background-size: 100% auto;
+  background-position: 0 -1rem;
+  -webkit-animation: bgStepsX 0.8s steps(7) 0s 1; 
+  animation: bgStepsX 0.8s steps(7) 0s 1; 
+  animation-fill-mode: forwards;
+}
+.animation_melon{
+  background: url(../img/animation_melon.png) center no-repeat;
+  background-size: 100% auto;
+  background-position: 0 -1rem;
+  -webkit-animation: bgStepsX 0.8s steps(7) 0s 1; 
+  animation: bgStepsX 0.8s steps(7) 0s 1; 
+  animation-fill-mode: forwards;
+}
+.animation_money{
+  background: url(../img/animation_money.png) center no-repeat;
+  background-size: 100% auto;
+  background-position: 0 -1rem;
+  -webkit-animation: bgStepsX 0.8s steps(7) 0s 1; 
+  animation: bgStepsX 0.8s steps(7) 0s 1; 
+  animation-fill-mode: forwards;
+}
+.animation_bar{
+  background: url(../img/animation_bar.png) center no-repeat;
+  background-size: 100% auto;
+  background-position: 0 -1rem;
+  -webkit-animation: bgStepsX 0.8s steps(7) 0s 1; 
+  animation: bgStepsX 0.8s steps(7) 0s 1; 
+  animation-fill-mode: forwards;
+}
+@keyframes bgStepsX{
+  0% {
+    background-position-y: -1rem;
+  }
+  100% {
+    background-position-y: -39.5rem;
+  }
+}
+.cover{
+  position: absolute;
+  top: 7.9rem;
+  width: 15.56rem;
+  left: 50%;
+  margin-left: -7.78rem;
+  background: url(../img/cover.png) center no-repeat;
+  height: 15.8rem;
+  background-size: 100% 100%;
+}
+.cover ul{
+  padding: 1.1rem 1.4rem 0 1.4rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+.cover ul li{
+  margin-bottom: 1.4rem;
+  width: 28%;
+  height: 3.65rem;
+  display: inline-block;
+  /* border: 1px solid red */
+}

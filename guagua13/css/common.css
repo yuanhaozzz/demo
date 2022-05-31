@@ -1,0 +1,986 @@
+div {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+}
+
+.box1 {
+  width: 18.75rem;
+  height: 30.15rem;
+  /* background: url(https://hdggcdn.bayimob.com/hdggstatic/guaguakabg.jpg) no-repeat; */
+	background: url(../images/bg.jpg) no-repeat;
+  background-size: 100%;
+  /* padding-top: 16.8rem; */
+  position: absolute;
+  
+}
+
+ 
+#guaqu {
+  position: relative;
+  width: 16.1rem;
+  height: 9.175rem;
+  margin: 9.5rem auto;
+	padding: 1rem;
+  box-sizing: border-box;
+   
+}
+.bigBox {
+  perspective: 2000px;
+}
+.allBox {
+  transform-style: preserve-3d;
+  
+}
+ .dropCard {
+  width: 17.7rem;
+  height: 8.975rem;
+  position: absolute;
+  top: 2.5rem;
+  left: 50%;
+  margin-left: -8.85rem;
+  
+ }
+.dropBox {
+  /* width: 17.7rem;
+  height: 8.975rem;
+  position: absolute;
+  top: -13rem;
+  left: 50%;
+  margin-left: -8.85rem;
+   */
+}
+.dropGo {
+  animation: dropGo 1s linear;
+  -webkit-animation: dropGo 1s linear;
+}
+.dropGo1 {
+  animation: dropGo 1.2s linear;
+  -webkit-animation: dropGo 1.2s linear;
+}
+.dropGo2 {
+  animation: dropGo 1.4s linear;
+  -webkit-animation: dropGo 1.4s linear;
+}
+.dropGo3 {
+  animation: dropGo 1.6s linear;
+  -webkit-animation: dropGo 1.6s linear;
+}
+
+@keyframes dropGo {
+  0% {
+    top: -13rem;
+  }
+  25% {
+    top: -8rem;
+  }
+  50% {
+    top: -3rem;
+  }
+  75% {
+    top: 8rem;
+  }
+  100% {
+    top: 10rem;
+  }
+}
+@-webkit-keyframes dropGo {
+  0% {
+    top: -13rem;
+  }
+  25% {
+    top: -8rem;
+  }
+  50% {
+    top: -3rem;
+  }
+  75% {
+    top: 8rem;
+  }
+  100% {
+    top: 10rem;
+  }
+}
+ 
+.dropBox .winBax {
+  width: 17.7rem;
+  height: 8.975rem;
+  position: absolute;
+  top: 0rem;
+  left: 50%;
+  margin-left: -8.85rem;
+  -webkit-transform: scale(.8);
+  opacity: .4;
+  display: block;
+}
+.dropBox .winBax .guaguaYin {
+  width: 17.7rem;
+  height: 8.975rem;
+  position: absolute;
+  top: 0rem;
+  left: 50%;
+  margin-left: -8.85rem;
+  background: url(../images/cardBg.png) no-repeat;
+  background-size: 100%;
+  z-index: 1;
+  /* opacity: .4; */
+}
+.dropBox .winBax .gua1 {
+  width: 16rem;
+  height: 7.5rem;
+  position: absolute;
+  top: 0.7rem;
+  left: 50%;
+  margin-left: -8rem;
+  background: url(../images/card1.png) no-repeat;
+  background-size: 100%;
+}
+.dropBox .winBax1  {
+  width: 17.7rem;
+  height: 8.975rem;
+  position: absolute;
+  top: 0.9rem;
+  left: 50%;
+  margin-left: -8.85rem;
+   /* background: rgba(0, 0, 0, 0.8); */
+  opacity: .4;
+   -webkit-transform: scale(.88); 
+   display: block;
+}
+.dropBox .winBax1 .guaguaYin {
+  width: 17.7rem;
+  height: 8.975rem;
+  position: absolute;
+  top: 0rem;
+  left: 50%;
+  margin-left: -8.85rem;
+  background: url(../images/cardBg.png) no-repeat;
+  background-size: 100%;
+  z-index: 1;
+  /* opacity: .4; */
+}
+.dropBox .winBax1 .gua1 {
+  width: 16rem;
+  height: 7.5rem;
+  position: absolute;
+  top: 0.7rem;
+  left: 50%;
+  margin-left: -8rem;
+  background: url(../images/card1.png) no-repeat;
+  background-size: 100%;
+}
+.dropBox .winBax2 {
+  width: 17.7rem;
+  height: 8.975rem;
+  position: absolute;
+  top: 1.7rem;
+  left: 50%;
+  margin-left: -8.85rem;
+   /* background: rgba(0, 0, 0, 0.6); */
+   opacity: .5;
+  -webkit-transform: scale(.94) ;
+  display: block;
+}
+.dropBox .winBax2 .guaguaYin {
+  width: 17.7rem;
+  height: 8.975rem;
+  position: absolute;
+  top: 0rem;
+  left: 50%;
+  margin-left: -8.85rem;
+  background: url(../images/cardBg.png) no-repeat;
+  background-size: 100%;
+  z-index: 1;
+  /* opacity: .4; */
+}
+.dropBox .winBax2 .gua1 {
+  width: 16rem;
+  height: 7.5rem;
+  position: absolute;
+  top: 0.7rem;
+  left: 50%;
+  margin-left: -8rem;
+  background: url(../images/card1.png) no-repeat;
+  background-size: 100%;
+}
+.dropCard .guaguaYin {
+  width: 17.7rem;
+  height: 8.975rem;
+  position: absolute;
+  top: 0rem;
+  left: 50%;
+  margin-left: -8.85rem;
+  background: url(../images/cardBg.png) no-repeat;
+  background-size: 100%;
+  z-index: 1;
+  /* opacity: .4; */
+}
+.dropCard .gua1 {
+  width: 16rem;
+  height: 7.5rem;
+  position: absolute;
+  top: 0.7rem;
+  left: 50%;
+  margin-left: -8rem;
+  background: url(../images/card1.png) no-repeat;
+  background-size: 100%;
+}
+.dropCard  .yellowBg {
+  width: 17.45rem;
+  height: 8.725rem;
+  background: url(../images/yellow.png) no-repeat;
+  background-size: 100%;
+  position: absolute;
+  top: 0rem;
+  left: 50%;
+  margin-left: -8.725rem;
+}
+.rightCard {
+  width: 17.7rem;
+  height: 8.975rem;
+  position: absolute;
+  top: 13rem;
+  left: 50%;
+  margin-left: -8.85rem;
+  z-index: 4;
+  display: none;
+}
+@keyframes cardGo {
+  0% {
+    transform: rotate(0deg);
+    left:50%;
+  }
+  100% {
+    transform: rotate(250deg);
+    left: 150%;
+  }
+}
+.rightCardGo {
+  animation: cardGo .8s linear; 
+}
+.rightCard .yellowBg {
+  width: 17.45rem;
+  height: 8.725rem;
+  background: url(../images/yellow.png) no-repeat;
+  background-size: 100%;
+  position: absolute;
+  top: 0rem;
+  left: 50%;
+  margin-left: -8.725rem;
+}
+.rightCard .gua1 {
+  width: 16rem;
+  height: 7.5rem;
+  position: absolute;
+  top: 0.7rem;
+  left: 50%;
+  margin-left: -8rem;
+  background: url(../images/card1.png) no-repeat;
+  background-size: 100%;
+}
+.rightCard .guaguaYin {
+  width: 17.7rem;
+  height: 8.975rem;
+  position: absolute;
+  top: 0rem;
+  left: 50%;
+  margin-left: -8.85rem;
+  background: url(../images/cardBg.png) no-repeat;
+  background-size: 100%;
+  z-index: 1;
+  /* opacity: .4; */
+}
+.winBax {
+  width: 17.7rem;
+  height: 8.975rem;
+  position: absolute;
+  top: 0rem;
+  left: 50%;
+  margin-left: -8.85rem;
+  -webkit-transform: scale(.8);
+  opacity: .4;
+  display: none;
+}
+.winBax1 {
+  width: 17.7rem;
+  height: 8.975rem;
+  position: absolute;
+  top: 0.9rem;
+  left: 50%;
+  margin-left: -8.85rem;
+   /* background: rgba(0, 0, 0, 0.8); */
+  opacity: .4;
+   -webkit-transform: scale(.88); 
+   display: none;
+}
+.winBax2 {
+  width: 17.7rem;
+  height: 8.975rem;
+  position: absolute;
+  top: 1.7rem;
+  left: 50%;
+  margin-left: -8.85rem;
+   /* background: rgba(0, 0, 0, 0.6); */
+   opacity: .5;
+  -webkit-transform: scale(.94) ;
+  display: none;
+}
+.winBax .guaguaYin {
+  width: 17.7rem;
+  height: 8.975rem;
+  position: absolute;
+  top: 0rem;
+  left: 50%;
+  margin-left: -8.85rem;
+  background: url(../images/cardBg.png) no-repeat;
+  background-size: 100%;
+  z-index: 1;
+  /* opacity: .4; */
+}
+.winBax .gua1 {
+  width: 16rem;
+  height: 7.5rem;
+  position: absolute;
+  top: 0.7rem;
+  left: 50%;
+  margin-left: -8rem;
+  background: url(../images/card1.png) no-repeat;
+  background-size: 100%;
+}
+.winBax1 .guaguaYin {
+  width: 17.7rem;
+  height: 8.975rem;
+  position: absolute;
+  top: 0rem;
+  left: 50%;
+  margin-left: -8.85rem;
+  background: url(../images/cardBg.png) no-repeat;
+  background-size: 100%;
+  z-index: 1;
+  /* opacity: .4; */
+}
+.yellowBg {
+  width: 17.45rem;
+  height: 8.725rem;
+  background: url(../images/yellow.png) no-repeat;
+  background-size: 100%;
+  position: absolute;
+  top: 0rem;
+  left: 50%;
+  margin-left: -8.725rem;
+}
+.winBax1 .gua1 {
+  width: 16rem;
+  height: 7.5rem;
+  position: absolute;
+  top: 0.7rem;
+  left: 50%;
+  margin-left: -8rem;
+  background: url(../images/card1.png) no-repeat;
+  background-size: 100%;
+}
+.winBax2 .guaguaYin {
+  width: 17.7rem;
+  height: 8.975rem;
+  position: absolute;
+  top: 0rem;
+  left: 50%;
+  margin-left: -8.85rem;
+  background: url(../images/cardBg.png) no-repeat;
+  background-size: 100%;
+  z-index: 1;
+  /* opacity: .4; */
+}
+.winBax2 .gua1 {
+  width: 16rem;
+  height: 7.5rem;
+  position: absolute;
+  top: 0.7rem;
+  left: 50%;
+  margin-left: -8rem;
+  background: url(../images/card1.png) no-repeat;
+  background-size: 100%;
+}
+.lastBox {
+  width: 17.7rem;
+  height: 8.975rem;
+  position: absolute;
+  top: 3.5rem;
+  left: 50%;
+  margin-left: -8.75rem;
+   /* -webkit-transform: scale(1); */
+  z-index: 2;
+  display: none;
+}
+.lastBox .lastHezi {
+  width: 17.7rem;
+  height: 8.975rem;
+  position: absolute;
+  /* top: 3.2rem; */
+  left: 50%;
+  margin-left: -8.75rem;
+  background: url(../images/cardBg.png) no-repeat;
+  background-size: 100%;
+  z-index: 2;
+}
+.lastBox  .lastBg {
+  width: 17.45rem;
+  height: 8.725rem;
+  position: absolute;
+  top: 0rem;
+  left: 50%;
+  margin-left: -8.725rem;
+  background: url(../images/yellow.png) no-repeat;
+  background-size: 100%;
+}
+#imgad {
+  width: 16.4rem;
+    height: 7.7rem;
+    margin: 0 0;
+    background: #b5b5b5;
+    text-align: center;
+    position: absolute;
+    top: 0.6rem;
+    left: 0.65rem;
+    border-radius: 57px;
+}
+
+#imgad img {
+     width: 100%;
+    height: 100%;
+    /* display: block; */
+    /* margin: 0 auto; */
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+		border-radius: 57px;
+}
+
+#imgad span {
+  display: inline-block;
+  padding: 0.25rem 1.0rem;
+  background: #ed3628;
+  color: #fff;
+  font-size: 0.6rem;
+  text-align: center;
+  border-radius: 1rem;
+}
+
+#redux {
+  position: absolute;
+  top: 0.5rem;
+  left: .65rem;
+  width: 16.4rem;
+  height: 7.8rem;
+  padding: 0;
+  z-index: 1;
+  border-radius: 0;
+  /* -webkit-border-radius: 55px; */
+}
+#reduxss {
+  position: absolute;
+  top: 0.5rem;
+  left: .65rem;
+  width: 16.4rem;
+  height: 7.8rem;
+  padding: 0;
+  z-index: 1;
+  border-radius: 0;
+}
+
+.zhanshi {
+  position: absolute;
+  top:4.4rem;
+  left: 2.2rem;
+  width: 9.8rem;
+  height: 3.75rem;
+  z-index: 3;
+  text-align: center;
+  display: none;
+}
+
+.zhanshi img {
+  width: 100%;
+}
+
+
+
+ 
+
+#point {
+  width: 2.25rem;
+  height: 3.75rem;
+  position: absolute;
+  bottom: -2rem;
+  left: 5rem;
+  z-index: 2;
+  transition: All 1s ease-in-out;
+  -webkit-transition: All 1s ease-in-out;
+  -moz-transition: All 1s ease-in-out;
+  -o-transition: All 1s ease-in-out;
+}
+
+.phover {
+  transform: translate(50px, 0);
+  -webkit-transform: translate(50px, 0);
+  -moz-transform: translate(50px, 0);
+  -o-transform: translate(50px, 0);
+  -ms-transform: translate(50px, 0);
+}
+
+#showimg {
+  position: absolute;
+  top: 3rem;
+  left: 2.2rem;
+  width: 9.8rem;
+  z-index: 2;
+  display: none;
+  -webkit-animation: tipscale .6s infinite linear .1s alternate;
+  -moz-animation: tipscale .6s infinite linear .1s alternate;
+  -ms-animation: tipscale .6s infinite linear .1s alternate;
+  -o-animation: tipscale .6s infinite linear .1s alternate;
+  animation: tipscale .6s infinite linear .1s alternate;
+}
+
+@keyframes tipscale {
+  from {
+    transform: scale(.9)
+  }
+  to {
+    transform: scale(1.1)
+  }
+}
+
+@-webkit-keyframes tipscale {
+  from {
+    -webkit-transform: scale(.9)
+  }
+  to {
+    -webkit-transform: scale(1.1)
+  }
+}
+
+@-moz-keyframes tipscale {
+  from {
+    -moz-transform: scale(.9)
+  }
+  to {
+    -moz-transform: scale(1.1)
+  }
+}
+
+#zhe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 14.1rem;
+  height: 7.5rem;
+  z-index: 2;
+  display: none;
+}
+
+.contant canvas {
+  width: 100%;
+  height: 100%;
+}
+
+.zhanshi #start {
+	  position: absolute;
+    top: 2rem;
+    left: 60%;
+    margin-left: -3.25rem;
+    width: 7.1rem;
+    height: 2.5rem;
+    background-image: url(../images/btn.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    transform-origin: center;
+    display: none; 
+		/* animation: startMove .4s infinite linear ; */
+
+}
+@keyframes startMove{
+	 /* from{
+		transform: rotate(0);
+		}
+	to{
+		transform: rotate(-15deg);
+	} 
+	 */
+	 0% {
+		transform:rotate(0);
+	}
+	25% {
+		transform: rotate(15deg);
+	}
+	50% {
+		transform: rotate(0);
+
+	}
+	75% {
+		transform: rotate(-15deg);
+	}
+	100% {
+		transform: rotate(0);
+	} 
+}
+
+#over {
+  position: absolute;
+  top: 3.5rem;
+  width: 11.5rem;
+  left: 1.25rem;
+  font-size: 0.8rem;
+  color: #fff;
+  text-align: center;
+  z-index: 2;
+  display: none;
+}
+
+.alerty {
+  position: absolute;
+  top: 5.0rem;
+  left: 0;
+  display: none;
+  z-index: 3;
+  margin-top: 0.5rem;
+  margin-bottom: 0.9rem;
+  margin-right: 1.375rem;
+  margin-left: 1.375rem;
+  background: #fff;
+  border-radius: 0.75rem;
+}
+
+.saclose {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  z-index: 3;
+  width: 1rem;
+  height: 1rem;
+  background: url(https://hdggcdn.bayimob.com/hdggstatic/hdgg_close.png) 0 0 no-repeat;
+  background-size: contain;
+}
+
+.zhenotice {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  background: rgba(0, 0, 0, 0.4)
+}
+
+ .rule {
+    position: absolute;
+    left: 0.3rem;
+    top: 1rem;
+    width: 2.475rem;
+    height: 1.675rem;
+     
+    z-index: 1;
+    background: url(../images/rule.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+body .jiang {
+    position: absolute;
+    right: 0.3rem;
+    top: 1rem;
+    width: 2.475rem !important;
+    height: 1.675rem !important;
+    z-index: 2;
+    background: url(../images/win.png) no-repeat !important;
+    background-size: 100% 100% !important;
+}
+
+.notice {
+  position: relative;
+  padding-bottom: 0.5rem;
+}
+
+.notice h1 {
+  font-size: 0.8rem;
+  line-height: 1rem;
+  margin-top: 0.5rem;
+  color: #440d00;
+  text-align: center;
+  font-weight: normal;
+}
+
+.notice h1.ntile1 {
+  height: 3.5rem;
+  border-top-right-radius: 0.75rem;
+  border-top-left-radius: 0.75rem;
+  margin-top: 0;
+  background: url(https://hdggcdn.bayimob.com/hdggstatic/activenotice.jpg) no-repeat;
+  background-size: 100% 100%;
+}
+
+.notice h1.title {
+
+  color: #440d00;
+  text-align: left;
+  margin-top: 0.5rem;
+  margin-bottom: 0.25rem;
+}
+
+.notice h1 span {
+  width: 1.75rem;
+  height: 1px;
+  display: inline-block;
+  background: #440d00;
+  vertical-align: middle;
+}
+
+.notice h1 span:first-child {
+  margin-right: 0.4rem;
+}
+
+.notice h1 span:last-child {
+  margin-left: 0.4rem;
+}
+
+.notice .contant {
+  width: 85%;
+  height: 16rem;
+  margin: 0 auto;
+  padding: 0.5rem;
+  color: #440d00;
+  overflow: auto;
+}
+
+.notice .contant p {
+  line-height: 1rem;
+  font-size: 0.6rem;
+  margin-bottom: 0.25rem;
+}
+
+.notice .contant p.font14, .notice .contant h1.font14 {
+  font-size: 0.7rem;
+}
+
+.moresay {
+  background: #fd6918;
+  color: #fff;
+  width: 80%;
+  height: 1.5rem;
+  margin: 0 auto;
+  font-size: 0.7rem;
+  text-align: center;
+  line-height: 1.5rem;
+}
+
+.moresayp {
+  display: none;
+  padding-top: 1.0rem;
+}
+
+.moresay i {
+  display: inline-block;
+  width: .4rem;
+  height: .4rem;
+  margin-left: .3rem;
+  transition: all .3s ease-in-out;
+  -webkit-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+  -webkit-transform-origin: .15rem .15rem;
+  transform-origin: .15rem .15rem;
+  vertical-align: middle;
+  border: 1px solid transparent;
+  border-top-color: #fff;
+  border-left-color: #fff;
+}
+
+.activeadv i {
+  -webkit-transform: rotate(-315deg);
+  transform: rotate(-315deg);
+}
+
+#hdgg_more_game_award {
+  z-index: 2;
+}
+
+.swiper-container {
+  position: relative;
+  width: 100%;
+  height: 5.3rem;
+  padding-top: 0.3rem;
+  background: url(https://hdggcdn.bayimob.com/hdggstatic/swiper/zadan_bg.jpg);
+}
+
+.swiper-title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2.45rem;
+  height: 2.8rem;
+  z-index: 2;
+  background: url(https://hdggcdn.bayimob.com/hdggstatic/swiper/shops_title.png) no-repeat;
+  background-size: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  height: 4rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.swiper-slide:nth-child(1) {
+  margin-left: 1.5rem;
+}
+
+.swiper-slide .imgf {
+  width: 3.25rem;
+  height: 3.25rem;
+  margin: 0 auto;
+  display: block;
+  border-radius: 0.5rem;
+  border: 3px solid #fae00b;
+}
+
+.swiper-slide p {
+  margin-top: 0.3rem;
+  width: 100%;
+  display: block;
+  color: #fff;
+  font-size: 0.6rem;
+}
+
+.swiper-slide:nth-child(1) .imgf {
+  background: url(https://hdggcdn.bayimob.com/hdggstatic/swiper/shops_1.jpg) no-repeat;
+  background-size: 100%;
+}
+
+.swiper-slide:nth-child(2) .imgf {
+  background: url(https://hdggcdn.bayimob.com/hdggstatic/swiper/shops_2.jpg) no-repeat;
+  background-size: 100%;
+}
+
+.swiper-slide:nth-child(3) .imgf {
+  background: url(https://hdggcdn.bayimob.com/hdggstatic/swiper/shops_3.jpg) no-repeat;
+  background-size: 100%;
+}
+
+.swiper-slide:nth-child(4) .imgf {
+  background: url(https://hdggcdn.bayimob.com/hdggstatic/swiper/shops_4.jpg) no-repeat;
+  background-size: 100%;
+}
+
+.swiper-slide:nth-child(5) .imgf {
+  background: url(https://hdggcdn.bayimob.com/hdggstatic/swiper/shops_5.jpg) no-repeat;
+  background-size: 100%;
+}
+
+.swiper-slide:nth-child(6) .imgf {
+  width: 0.5rem;
+  background: transparent;
+}
+
+.bodybuttom {
+  position: absolute;
+  width: 100%;
+  height: 1rem;
+  left: 0;
+  top: 2rem;
+  text-align: center;
+}
+.counts {
+  font-size: 0.9rem;
+  padding: 0.25rem 0.5rem;
+  color: #de440f;
+  border-radius: 0.5rem;
+  position: absolute;
+  top: -2.4rem;
+  top: -1.4rem;
+  left: 7.9rem;
+}
+.textBox {
+  position: absolute;
+  top: 16.5rem;
+  left: 5rem;
+  z-index: 4;
+  font-size: 1.5rem;
+  display: none;
+  z-index: 4;
+  color: #8a8a8a;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+.textGo {
+  animation: textGo .5s linear 0s 2 alternate ;
+}
+@keyframes textGo{
+  from{transform: translateY(0);}
+ 
+  to{transform: translateY(-12px);}
+}
+.textBox span:nth-child(1) {
+  position: absolute;
+  top: 0rem;
+  left: 1rem;
+}
+.textBox span:nth-child(2) {
+  position: absolute;
+  top: 0rem;
+  left: 2.5rem;
+}
+.textBox span:nth-child(3) {
+  position: absolute;
+  top: 0rem;
+  left: 4rem;
+}
+
+.textBox span:nth-child(4) {
+  position: absolute;
+  top: 0rem;
+  left: 5.5rem;
+}
+.textBox span:nth-child(5) {
+  position: absolute;
+  top: 0rem;
+  left: 7rem;
+}
+.textBox span:nth-child(6) {
+   position: absolute;
+   top: 0rem;
+   left: 8.5rem;
+   width: 2.5rem;
+}
+.hand {
+    width: 3.65rem;
+    height: 3.95rem;
+    position: absolute;
+    top: 2.8rem;
+    left: 98%;
+    margin-left: -1.325rem;
+    background: url(../images/hand.png) no-repeat;
+    background-size: 100%;
+    animation:  handGo 1s linear infinite;
+}
+@keyframes handGo {
+  0% {
+    transform: scale(1)
+  }
+  25% {
+    transform: scale(1.05)
+  }
+  50% {
+    transform: scale(1.1)
+  }
+  75% {
+    transform: scale(1.05)
+  }
+  100%  {
+    transform: scale(1)
+  }
+}
+.loding {
+  position: absolute;
+  top: 0rem;
+  left: 0rem;
+  z-index: 3;
+  display: none;
+}

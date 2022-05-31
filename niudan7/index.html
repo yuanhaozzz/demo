@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html style="font-size: 20px;">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta http-equiv="Cache-Control" content="no-transform">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="layoutmode" content="standard">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="renderer" content="webkit">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/alertCommon.css"/>
+	<link rel="stylesheet" type="text/css" href="../hdgg.css"/>
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<script>
+		FZ(20, 375);
+		function FZ(a, b) {
+			function getFZ() {
+				var width = document.documentElement.clientWidth || document.body.clientWidth;
+				if (width > 750) {
+					width = 750;
+				}
+				var fontSize = (a / b) * width;
+				return fontSize;
+			};
+			document.documentElement.style.fontSize = getFZ() + "px";
+			window.onresize = function() {
+				setTimeout(function() {
+					document.documentElement.style.fontSize = getFZ() + "px";
+				}, 100);
+			};
+		};
+	</script>
+  <title>扭蛋赢好礼</title>
+</head>
+<body>
+
+<div class="bodydiv">
+	<div class="title"></div>
+  	<div class="egeBg1">
+		<!-- <div class="rule"></div> -->
+		<div class="price"></div>
+		<div class="contents">剩余免费<div id="countZa"></div>次</div>
+		<div class="button">
+			<div class="hand"></div>
+		</div>
+		<div class="door"></div>
+		<div class="progress">
+			<img src="./img/progress_bar.png" alt="">
+		</div>
+	</div>
+	<div class="baoBox">
+		<div class="bao one static1"></div>
+		<div class="bao two static2"></div>
+		<div class="bao three static3"></div>
+		<div class="bao four static4"></div>
+		<div class="bao five static5"></div>
+		<div class="bao sex static6"></div>
+		<div class="bao seven static7"></div>
+		<div class="bao eight static8"></div>
+		<div class="bao nine static9"></div>
+		<div class="bao ten static10"></div>
+		<div class="bao first static11"></div>
+	</div>
+	<div class="roll"></div>
+	<div class="price_ball">
+		<ul>
+			<li><img src="./img/ball_txt1.png" alt=""></li>
+			<li><img src="./img/ball_txt2.png" alt=""></li>
+			<li><img src="./img/ball_txt3.png" alt=""></li>
+			<li><img src="./img/ball_txt4.png" alt=""></li>
+			<li><img src="./img/ball_txt5.png" alt=""></li>
+		</ul>
+	</div>
+	<div class="alerty">
+		<div class="notice">
+			<div class="saclose"></div>
+			<h1 class="ntile1"></h1>
+			<div class="contant">
+				<p class="font14">用户每天可免费获得8次抽奖机会，此活动为概率中奖，参与者有机会获得如下奖品，奖品数量有限，祝好运！</p>
+				<p>惊喜一：集齐5颗扭蛋，获88元现金红包</p>
+				<p>惊喜二：20元现金红包</p>
+				<p>惊喜三：5元现金红包</p>
+				<p>惊喜四：1元现金红包</p>
+				<p>惊喜五：幸运福袋</p>
+				<h1 class="title font14">重要声明：</h1>
+				<p>1.奖品将在活动结束后5-10个工作日安排发放，请耐心等待</p>
+				<p>2.优惠券类奖品的使用规则详见每个优惠券的介绍页</p>
+				<p>3.通过非法途径获得奖品的，主办方有权不提供奖品</p>
+				<!-- <div class="moresay">更多奖品说明<i></i></div>
+				<div class="moresayp">
+				<p>惊喜一：510元现金红包，共5份，中奖概率为0.01%</p>
+				<p>惊喜二：88元现金红包，共25份，中奖概率为0.05%</p>
+				<p>惊喜三：66元现金红包，共35份，中奖概率为0.07%</p>
+				<p>惊喜四：1元现金红包，共450份，中奖概率为0.9%</p>
+				<p>惊喜五：幸运福袋，中奖概率为98.97%</p>
+				</div> -->
+			</div>
+		</div>
+	</div> 
+	<div class="img_box">
+		<img src="./img/ribbon.png" alt="">
+		<img src="./img/pop_box.png" alt="">
+	</div>
+	<div class="zhenotice"></div> 
+	<!-- <div class="pop_box"></div> -->
+	<!-- <div class="popShowPrize" id="dialog5" style="display: block; transform-origin: 0px 0px 0px; opacity: 1; transform: scale(1, 1);">
+		<div class="price_box">
+			<div class="ribbons"></div>
+			<div class="caiguang"></div>
+			<div class="m-box"></div>
+			<div class="showPrize-dialog modal-body">
+				<div class="tips"></div>
+				<div class="ball_title">
+					<img src='./img/ball_txt1.png'>
+				</div>
+				<div class="red-bg">
+					<div class="card-bg">
+						<img class="resAd" src="https://hdggcdn.bayimob.com/base_img_path_hdggadv/2232/1558594228017_8.jpg">
+					</div>
+					<div class="detail">
+						<div class="topic">advIntro</div>
+						<div class="goto">
+
+						</div>
+					</div>
+				</div>
+				<div class="tips"></div>
+			</div>
+		</div>
+	</div> -->
+</div>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="../hdgg.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,553 @@
+
+body {
+	padding: 0;
+	margin: 0;
+	background: #4a3033;
+}
+html {
+	font-size: 40px;
+}
+#contant {
+	width: 18.75rem;
+	height: 30.15rem;
+	position: relative;
+	background: url(../img/bg.jpg) no-repeat;
+	background-size: 100%;
+}
+.yaoqianshu {
+	width: 17.575rem;
+	height: 157.2rem;
+	margin:  0 auto;
+	background-image: url(../img/xuebi1.png);
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	/* background-position: 0 -101rem; */
+	
+}
+.yaoshuBox {
+	width: 100%;
+	height: 18.45rem;
+	position: absolute;
+	top: 5.2rem;
+	overflow: hidden;
+}
+ .yaoshuGo {
+	 position: absolute;
+	 top:0rem;
+	 left: 0rem;
+	width: 100%;
+	height: 18.45rem;
+	background: url(../img/xuebi1.png) no-repeat;
+	background-size:  100% auto;
+	background-position-y:0;
+	
+} 
+.yaoMy {
+	animation: yaoshuGo 0.8s steps(7) 0s 1;
+}
+@keyframes yaoshuGo{
+	0% {
+		 
+		background-position-y:  0;
+	}
+	 100% {
+		 
+		background-position-y:100%;
+	 }
+}
+.yaoshuoGif {
+	width: 18.75rem;
+	height: 16.75rem;
+	position: absolute;
+	top: 11rem;
+	left: 50%;
+	margin-left: -9.375rem;
+	/* background-image: url(../img/yao.gif); */
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.btn {
+	width: 8.46rem;
+	height: 4.4rem;
+	position: absolute;
+	top: 22.4rem;
+	left: 50%;
+	margin-left: -4.23rem;
+	background: url(../img/btn.png) no-repeat;
+	background-size: 100%;
+	/* animation:  btnMove .6s infinite linear; */
+	/* -webkit-animation:  btnMove .6s infinite linear; */
+}
+@keyframes btnMove{
+	 0% {
+		 transform: scale(1);
+	 }
+	 25% {
+		 transform: scale(1.1);
+	 }
+	 50% {
+		 transform: scale(1.2);
+	 }
+	 75% {
+		 transform: scale(1.1);
+	 }
+	 100% {
+		 transform: scale(1);
+	 }
+	 
+	 
+}
+@-webkit-keyframes btnMove{
+	0% {
+		-webkit-transform: scale(1);
+	}
+	25% {
+		-webkit-transform: scale(1.1);
+	}
+	50% {
+		-webkit-transform: scale(1.2);
+	}
+	75% {
+		-webkit-transform: scale(1.1);
+	}
+	100% {
+		-webkit-transform: scale(1);
+	}
+	
+}
+.hand {
+	width: 3.65rem;
+	height: 3.525rem;
+	position: absolute;
+	top: 24rem;
+    left: 72%;
+	margin-left: -1.825rem;
+	background: url(https://hdggcdn.bayimob.com/hdggstatic/yaoshu1/hand.png) no-repeat;
+	background-size: 100%;
+	animation: btnMove .6s infinite linear;
+}
+.step {
+  width: 14.6rem;
+  height: 1.65rem;
+  position: absolute;
+  top: 8.3rem;
+  left: 50%;
+  margin-left: -7.3rem;
+  background: url(https://hdggcdn.bayimob.com/hdggstatic/yaoshu1/step.png) no-repeat;
+  background-size: 100% 100%;
+}
+.bgColor {
+  width: 0rem;
+  height: 0.63rem;
+  background: #36d6f8;
+  background-size: auto 100%;
+  position: absolute;
+  top: 0.52rem;
+  left: 0.4rem;
+  border-radius: 30px;
+  overflow: inherit !important;
+
+}
+
+.money {
+  width: 0.9rem;
+  height: 0.9rem;
+  position: absolute;
+  left: 3.5rem;
+    top: 0.3rem;
+  background: url(https://hdggcdn.bayimob.com/hdggstatic/yaoshu1/money.png) no-repeat;
+  background-size: 100% 100%;
+}
+.moneyGo {
+	animation:  maneyMove .7s linear;
+	-webkit-animation:  maneyMove .7s linear;
+}
+@keyframes maneyMove{
+	 0% {
+		 transform: translateY(0);
+	 }
+	 25% {
+		 transform: translateY(-30px);
+	 }
+	 50% {
+		 transform: translateY(-20px);
+	 }
+	 75% {
+		 transform: translateY(-10px);
+	 }
+	 100% {
+		 transform: translateY(0px);
+	 }
+}
+@-webkit-keyframes maneyMove{
+	0% {
+		-webkit-transform: translateY(0);
+	}
+	25% {
+		-webkit-transform: translateY(-30px);
+	}
+	50% {
+		-webkit-transform: translateY(-20px);
+	}
+	75% {
+		-webkit-transform: translateY(-10px);
+	}
+	100% {
+		-webkit-transform: translateY(0px);
+	}
+}
+
+.money2 {
+	width: 0.9rem;
+	height: 0.9rem;
+	position: absolute;
+	left: 5.3rem;
+    top: 0.3rem;
+	background: url(https://hdggcdn.bayimob.com/hdggstatic/yaoshu1/money.png) no-repeat;
+	background-size: 100% 100%;
+}
+.liping {
+	width: 0.925rem;
+	height: 1.025rem;
+	position: absolute;
+	left: 7.3rem;
+    top: 0.3rem;
+	background: url(https://hdggcdn.bayimob.com/hdggstatic/yaoshu1/lihe.png) no-repeat;
+	background-size: 100%;
+}
+.tishiText {
+	width: 2.75rem;
+	height: 0.775rem;
+	position: absolute;
+	top: -0.6rem;
+    left: 3.4rem;
+	background-image: url(https://hdggcdn.bayimob.com/hdggstatic/yaoshu1/tixing.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.clickT {
+	width: 0.825rem;
+	height: 1.125rem;
+	position: absolute;
+	right: 0.4rem;
+    top: 0.2rem;
+	background: url(../img/hongbao.png) no-repeat;
+	background-size: 100%;
+}
+.liuzhi1 {
+	width:2.125rem;
+	height: 10.775rem;
+	position: absolute;
+	top: -0.15rem;
+	left: 0rem;
+	background: url(https://hdggcdn.bayimob.com/hdggstatic/yaoshu1/liu1.png) no-repeat;
+	background-size: 100%;
+	transform-origin: top;
+	-webkit-transform-origin: top;
+	/* animation: liuzhiMove 2.5s infinite linear;
+	-webkit-animation: liuzhiMove 2.5s infinite linear; */
+}
+.liuzhi2 {
+	width:1.925rem;
+	height: 5.675rem;
+	position: absolute;
+	top: -0.15rem;
+	left: 1.3rem;
+	background: url(https://hdggcdn.bayimob.com/hdggstatic/yaoshu1/liu2.png) no-repeat;
+	background-size: 100%;
+	transform-origin: top;
+	-webkit-transform-origin: top;
+	/* animation: liuzhiMove 2.5s infinite linear;
+	-webkit-animation: liuzhiMove 2.5s infinite linear; */
+}
+.liuzhi3 {
+	width:1.625rem;
+	height: 4.425rem;
+	position: absolute;
+	top: -0.15rem;
+	right: 2.2rem;
+	background: url(https://hdggcdn.bayimob.com/hdggstatic/yaoshu1/liu3.png) no-repeat;
+	background-size: 100%;
+	transform-origin: top;
+	-webkit-transform-origin: top;
+	/* animation: liuzhiMove 2.5s infinite linear;
+	-webkit-animation: liuzhiMove 2.5s infinite linear; */
+}
+.liuzhi4 {
+	width:2.125rem;
+	height: 7.2rem;
+	position: absolute;
+	top: -0.15rem;
+	right: 0rem;
+	background: url(https://hdggcdn.bayimob.com/hdggstatic/yaoshu1/liu4.png) no-repeat;
+	background-size: 100%;
+	transform-origin: top;
+	-webkit-transform-origin: top;
+	/* animation: liuzhiMove 2.5s infinite linear;
+	-webkit-animation: liuzhiMove 2.5s infinite linear; */
+}
+.liuzhi5 {
+	width:2.975rem;
+	height: 10.775rem;
+	position: absolute;
+	top: -0.15rem;
+	right: 0rem;
+	background: url(https://hdggcdn.bayimob.com/hdggstatic/yaoshu1/liu5.png) no-repeat;
+	background-size: 100%;
+	transform-origin: top;
+	-webkit-transform-origin: top;
+	/* animation: liuzhiMove 2.5s infinite linear;
+	-webkit-animation: liuzhiMove 2.5s infinite linear; */
+}
+.liuzhiDong {
+	 animation: liuzhiMove 1s   linear;
+	-webkit-animation: liuzhiMove 1s   linear; 
+}
+@keyframes liuzhiMove{
+	  0% {
+		  transform: rotate(0);
+	  }
+	  10% {
+	  	transform: rotate(6deg);
+	  }
+	  20% {
+	  	transform: rotate(8deg);
+	  }
+	  30% {
+	  	transform: rotate(10deg);
+	  }
+	  40% {
+	  	transform: rotate(12deg);
+	  }
+	  50% {
+	  	transform: rotate(14deg);
+	  }
+	  60% {
+	  	transform: rotate(12deg);
+	  }
+	  70% {
+	  	transform: rotate(10deg);
+	  }
+	  80% {
+	  	transform: rotate(8deg);
+	  }
+	  90% {
+	  	transform: rotate(6deg);
+	  }
+	  100% {
+	  	transform: rotate(0);
+	  }
+}
+@-webkit-keyframes liuzhiMove{
+	0% {
+		-webkit-transform: rotate(0);
+	}
+	10% {
+	-webkit-transform: rotate(2deg);
+	}
+	20% {
+	-webkit-transform: rotate(4deg);
+	}
+	30% {
+	-webkit-transform: rotate(6deg);
+	}
+	40% {
+	-webkit-transform: rotate(8deg);
+	}
+	50% {
+	-webkit-transform: rotate(10deg);
+	}
+	60% {
+	-webkit-transform: rotate(8deg);
+	}
+	70% {
+	-webkit-transform: rotate(6deg);
+	}
+	80% {
+	-webkit-transform: rotate(4deg);
+	}
+	90% {
+	-webkit-transform: rotate(2deg);
+	}
+	100% {
+	-webkit-transform: rotate(0);
+	}
+}
+#danlists h1 {
+	position: absolute;
+	top: 22rem;
+	left: 35%;
+	font-size: 0.7rem;
+	color: #fff;
+	z-index: 10;
+}
+.light {
+	width: 12rem;
+	height: 0.1rem;
+	background: url(https://hdggcdn.bayimob.com/hdggstatic/yaoshu1/light.png);
+	background-size: 100%;
+	    margin-top: .1rem;
+
+}
+
+.notice {
+  position: relative;
+  padding-bottom: 0.5rem;
+  z-index: 3;
+}
+
+.notice h1 {
+  font-size: 0.8rem;
+  line-height: 1rem;
+  margin-top: 0.5rem;
+  color: #440d00;
+  text-align: center;
+  font-weight: normal;
+}
+
+.notice h1.ntile1 {
+  height: 3.5rem;
+  border-top-right-radius: 0.75rem;
+  border-top-left-radius: 0.75rem;
+  margin-top: 0;
+  background: url(https://hdggcdn.bayimob.com/hdggstatic/activenotice.jpg) no-repeat;
+  background-size: 100% 100%;
+}
+
+.notice h1.title {
+  color: #440d00;
+  text-align: left;
+  margin-top: 0.5rem;
+  margin-bottom: 0.25rem;
+}
+
+.notice h1 span {
+  width: 1.75rem;
+  height: 1px;
+  display: inline-block;
+  background: #440d00;
+  vertical-align: middle;
+}
+
+.notice h1 span:first-child {
+  margin-right: 0.4rem;
+}
+
+.notice h1 span:last-child {
+  margin-left: 0.4rem;
+}
+
+.notice .contant {
+  width: 85%;
+  height: 16rem;
+  margin: 0 auto;
+  padding: 0.5rem;
+  color: #440d00;
+  overflow: auto;
+}
+
+.notice .contant p {
+  line-height: 1rem;
+  font-size: 0.6rem;
+  margin-bottom: 0.25rem;
+}
+
+.notice .contant p.font14,
+.notice .contant h1.font14 {
+  font-size: 0.7rem;
+}
+
+.zhenotice {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  width: 100%;
+  height: 100%;
+  z-index: 4;
+  background: rgba(0, 0, 0, 0.4)
+}
+
+.alerty {
+  position: absolute;
+  top: 5.0rem;
+  left: 0;
+  display: none;
+  z-index: 5;
+  margin-top: 0.5rem;
+  margin-bottom: 0.9rem;
+  margin-right: 1.375rem;
+  margin-left: 1.375rem;
+  background: #fff;
+  border-radius: 0.75rem;
+  z-index: 100;
+}
+
+.saclose {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  z-index: 3;
+  width: 1.6em;
+  height: 1.6em;
+  background: url(https://hdggcdn.bayimob.com/hdggstatic/hdgg_close.png) 0 0 no-repeat;
+  background-size: contain;
+}
+
+.moresay {
+  background: #fd6918;
+  color: #fff;
+  width: 80%;
+  height: 1.5rem;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1.5rem;
+}
+
+.moresayp {
+  display: none;
+  padding-top: 1.0rem;
+}
+
+.moresay i {
+  display: inline-block;
+  width: .4rem;
+  height: .4rem;
+  margin-left: .3rem;
+  transition: all .3s ease-in-out;
+  -webkit-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+  -webkit-transform-origin: .15rem .15rem;
+  transform-origin: .15rem .15rem;
+  vertical-align: middle;
+  border: 1px solid transparent;
+  border-top-color: #fff;
+  border-left-color: #fff;
+}
+
+.activeadv i {
+  -webkit-transform: rotate(-315deg);
+  transform: rotate(-315deg);
+}
+
+#hdgg_show-win {
+  padding-left: 0;
+  margin-left: 0.2rem;
+}
+
+#hdgg_more_game_award {
+  z-index: 3;
+}
+
+.rule {
+	position: absolute;
+	left: 0.3rem;
+	top: 0.5rem;
+	width: 2.5rem;
+	height: 0.9rem;
+	text-align: center;
+	font-size: 0.65rem;
+	z-index: 1;
+	background: url(https://hdggcdn.bayimob.com/hdggstatic/dazhuanpan6/rule.png) no-repeat;
+	background-size: 100% 100%;
+}

@@ -1,0 +1,888 @@
+
+html {
+	font-size: 20px;
+}
+body {
+	padding: 0px;
+	margin: 0px;
+	/* -webkit-touch-callout: none !important;
+	-webkit-overflow-scrolling: touch; */
+}
+ 
+   /* img,a{
+      pointer-events: none;
+    } */
+.fireworksBg {
+	width: 18.75rem;
+    height: 90rem;
+    background: url(https://hdggcdn.bayimob.com/hdggstatic/fangyanhua/bg.jpg) no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    bottom: 57rem;
+    left: 0rem;
+	background-position-y: 0rem;
+}
+#contant {
+	width: 18.75rem;
+	height: 33.5rem;
+	overflow: hidden;
+}
+.btn {
+	width: 5.3rem;
+    height: 5.3rem;
+    position: absolute;
+    bottom: 2rem;
+    left: 50%;
+    margin-left: -2.65rem;
+    background: url(https://hdggcdn.bayimob.com/hdggstatic/fangyanhua/btn.png) no-repeat;
+    background-size: 100% 100%;
+    z-index: 2;
+    padding-top: 3.5rem;
+    padding-left: 1rem;
+    box-sizing: boder;
+    box-sizing: border-box;
+	color: #fff;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+}
+.qipao {
+	width: 3.875rem;
+    height: 2.575rem;
+    position: absolute;
+    bottom: 12.4rem;
+    left: 10rem;
+    background: url(https://hdggcdn.bayimob.com/hdggstatic/fangyanhua/qipao.png) no-repeat;
+    background-size: 100% 100%;
+	animation: qipaoMove 2s linear infinite;
+	-webkit-animation: qipaoMove 2s linear infinite;
+}
+@keyframes qipaoMove{
+	 0% {
+		 transform: translateY(0px);
+	 }
+	 20% {
+		 transform: translateY(-15px);
+	 }
+	 40% {
+		 transform: translateY(0px);
+	 }
+	 80% {
+		 transform: translateY(15px);
+		 opacity: 0.4;
+	 }
+	 100% {
+		 transform: translateY(0px);
+		 opacity: 0.7;
+	 }
+}
+@-webkit-keyframes qipaoMove{
+	0% {
+		-webkit-transform: translateY(0px);
+	}
+	20% {
+		-webkit-transform: translateY(-15px);
+	}
+	40% {
+		-webkit-transform: translateY(0px);
+	}
+	80% {
+		-webkit-transform: translateY(15px);
+		opacity: 0.4;
+	}
+	100% {
+		transform: translateY(0px);
+		opacity: 0.7;
+	}
+}
+.theme {
+	width: 12.425rem;
+	height: 7.6rem;
+	position: absolute;
+	top: 2.5rem;
+	left: 50%;
+	margin-left: -6.2125rem;
+	background: url(https://hdggcdn.bayimob.com/hdggstatic/fangyanhua/theme.png) no-repeat;
+	background-size: 100% 100%;
+	
+}
+.item1 {
+	width:5.9rem;
+	height:7rem;
+	position: absolute;
+	top: 66rem;
+	left: 50%;
+	margin-left:-2.95rem;
+}
+.item1 .hongbaoSmall {
+	width: 5.9rem;
+	height: 5.9rem;
+	position: absolute;
+	background: url(https://hdggcdn.bayimob.com/hdggstatic/fangyanhua/hongbaoSmall.png) no-repeat;
+	background-size: 100% 100%;
+	animation: item-yoyo 2s ease-in-out infinite;
+	-webkit-animation: item-yoyo 2s ease-in-out infinite;
+	
+}
+@keyframes item-yoyo{
+	 0%, 100% {
+    transform: scale(.8) translateY(0);
+}
+50% {
+    transform: scale(.8) translateY(.4rem);
+}
+
+}
+@-webkit-keyframes item-yoyo{
+	 0%, 100% {
+	     -webkit-transform: scale(.8) translateY(0); 
+	}
+	50% {
+	     -webkit-transform: scale(.8) translateY(.4rem); 
+	} 
+}
+.item1 .money1 {
+	display: inline-block;
+    width: 1.05rem;
+    height: 1.025rem;
+    background: url(https://hdggcdn.bayimob.com/hdggstatic/fangyanhua/money.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: -9rem;
+    left: 50%;
+    margin-left: -0.525rem;
+}
+.item1 .money2 {
+	display: inline-block;
+    width: 1.05rem;
+    height: 1.025rem;
+    background: url(https://hdggcdn.bayimob.com/hdggstatic/fangyanhua/money.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: -5rem;
+    left: 50%;
+    margin-left: -0.525rem;
+}
+.item2 {
+	width: 5.9rem;
+    height: 7rem;
+    position: absolute;
+    top: 51rem;
+    left: 50%;
+    margin-left: -2.95rem;
+}
+.item2 .hongbaoSmall {
+	width: 5.9rem;
+	height: 5.9rem;
+	position: absolute;
+	background: url(https://hdggcdn.bayimob.com/hdggstatic/fangyanhua/hongbaoSmall.png) no-repeat;
+	background-size: 100% 100%;
+}
+.item2 .money1 {
+	display: inline-block;
+    width: 1.05rem;
+    height: 1.025rem;
+    background: url(https://hdggcdn.bayimob.com/hdggstatic/fangyanhua/money.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: -2rem;
+    left: 50%;
+    margin-left: -0.525rem;
+}
+.item2 .money2 {
+	display: inline-block;
+    width: 1.05rem;
+    height: 1.025rem;
+    background: url(https://hdggcdn.bayimob.com/hdggstatic/fangyanhua/money.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: -5rem;
+    left: 50%;
+    margin-left: -0.525rem;
+}
+.item3 {
+	width:5.9rem;
+	height:7rem;
+	position: absolute;
+	top: 39rem;
+	left: 50%;
+	margin-left:-2.95rem;
+}
+.item3 .hongbaoSmall {
+	width: 5.9rem;
+	height: 5.9rem;
+	position: absolute;
+	background: url(https://hdggcdn.bayimob.com/hdggstatic/fangyanhua/hongbaoSmall.png) no-repeat;
+	background-size: 100% 100%;
+}
+.item3 .money1 {
+	display: inline-block;
+    width: 1.05rem;
+    height: 1.025rem;
+    background: url(https://hdggcdn.bayimob.com/hdggstatic/fangyanhua/money.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: -2rem;
+    left: 50%;
+    margin-left: -0.525rem;
+}
+.item3 .money2 {
+	display: inline-block;
+    width: 1.05rem;
+    height: 1.025rem;
+    background: url(https://hdggcdn.bayimob.com/hdggstatic/fangyanhua/money.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: -5rem;
+    left: 50%;
+    margin-left: -0.525rem;
+}
+.item4 {
+	width: 5.9rem;
+    height: 7rem;
+    position: absolute;
+    top: 25rem;
+    left: 50%;
+    margin-left: -2.95rem;
+}
+.item4 .hongbaoSmall {
+	width: 5.9rem;
+	height: 5.9rem;
+	position: absolute;
+	background: url(https://hdggcdn.bayimob.com/hdggstatic/fangyanhua/hongbaoSmall.png) no-repeat;
+	background-size: 100% 100%;
+}
+.item4 .money1 {
+	display: inline-block;
+    width: 1.05rem;
+    height: 1.025rem;
+    background: url(https://hdggcdn.bayimob.com/hdggstatic/fangyanhua/money.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: -2rem;
+    left: 50%;
+    margin-left: -0.525rem;
+}
+.item4 .money2 {
+	display: inline-block;
+    width: 1.05rem;
+    height: 1.025rem;
+    background: url(https://hdggcdn.bayimob.com/hdggstatic/fangyanhua/money.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: -5rem;
+    left: 50%;
+    margin-left: -0.525rem;
+}
+.item5 {
+	width: 8.05rem;
+    height: 7rem;
+    position: absolute;
+    top: 11rem;
+    left: 50%;
+    margin-left: -4.025rem;
+}
+.item5 .hongbaoSmall {
+	width: 8.05rem;
+	height: 8.05rem;
+	position: absolute;
+	background: url(https://hdggcdn.bayimob.com/hdggstatic/fangyanhua/hongbaoBig.png) no-repeat;
+	background-size: 100% 100%;
+}
+.item5 .money1 {
+	display: inline-block;
+    width: 1.05rem;
+    height: 1.025rem;
+    background: url(https://hdggcdn.bayimob.com/hdggstatic/fangyanhua/money.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: -2rem;
+    left: 50%;
+    margin-left: -0.525rem;
+}
+.item5 .money2 {
+	display: inline-block;
+    width: 1.05rem;
+    height: 1.025rem;
+    background: url(https://hdggcdn.bayimob.com/hdggstatic/fangyanhua/money.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: -5rem;
+    left: 50%;
+    margin-left: -0.525rem;
+}
+.box {
+	width: 7.875rem;
+	height: 4.15rem;
+	position: absolute;
+	top: 24.5rem;
+	left: 49.7%;
+	margin-left: -3.9375rem;
+	overflow: hidden;
+}
+.ziro {
+	 width: 7.875rem;
+	 height: 4.15rem;
+	 background: url(https://hdggcdn.bayimob.com/hdggstatic/fangyanhua/xuliTiao.png) no-repeat;
+	 background-size: 100% 100%;
+	 transform: rotate(-175deg);
+	 -webkit-transform: rotate(-175deg);
+	 transform-origin: bottom;
+	 -webkit-transform-origin: bottom;
+	 overflow: hidden;
+	 display: none;
+}
+.huojian {
+	width: 2.675rem;
+	height: 6.425rem;
+	position: absolute;
+	top: 15rem;
+	left: 50%;
+	margin-left: -1.3275rem;
+	background: url(https://hdggcdn.bayimob.com/hdggstatic/fangyanhua/huojian.png) no-repeat;
+	background-size: 100%;
+	z-index: 1;
+	display: none;
+	/* animation: huojainMove 1s infinite linear; */
+}
+@keyframes huojainMove{
+	 0% {
+		 transform: translateY(0);
+	 }
+	 25% {
+		 transform: translateY(15px);
+	 }
+	 50% {
+		 transform: translateY(25px);
+	 }
+	 75% {
+		 transform: translateY(30px);
+	 }
+	 100% {
+		 transform: translateY(35px);
+	 }
+	 
+}
+.posui {
+	width: 14rem;
+	height: 10rem;
+	position: absolute;
+	top: 11rem;
+	left: 50%;
+	margin-left: -7rem;
+	 display: none; 
+}
+.posui .one {
+	width: 1.975rem;
+	height: 2.95rem;
+	position: absolute;
+	top: 0rem;
+	left: 2rem;
+	background: url(https://hdggcdn.bayimob.com/hdggstatic/fangyanhua/sui1.png) no-repeat;
+	background-size: 100% 100%;
+}
+.posui .two {
+	width: 1.975rem;
+	height: 2.95rem;
+	position: absolute;
+	top: -3rem;
+	left: 5rem;
+	background: url(https://hdggcdn.bayimob.com/hdggstatic/fangyanhua/sui2.png) no-repeat;
+	background-size: 100% 100%;
+}
+.posui .three {
+	width: 1.975rem;
+	height: 2.95rem;
+	position: absolute;
+	top: 3rem;
+	left: 9rem;
+	background: url(https://hdggcdn.bayimob.com/hdggstatic/fangyanhua/sui3.png) no-repeat;
+	background-size: 100% 100%;
+}
+.posui .four {
+	width: 1.975rem;
+	height: 2.95rem;
+	position: absolute;
+	top: -2rem;
+	left: 7rem;
+	background: url(https://hdggcdn.bayimob.com/hdggstatic/fangyanhua/sui4.png) no-repeat;
+	background-size: 100% 100%;
+}
+.posui .five {
+	width: 1.975rem;
+	height: 2.95rem;
+	position: absolute;
+	top: 0rem;
+	left: 8rem;
+	background: url(https://hdggcdn.bayimob.com/hdggstatic/fangyanhua/sui5.png) no-repeat;
+	background-size: 100% 100%;
+}
+.posui .six {
+	width: 1.975rem;
+	height: 2.95rem;
+	position: absolute;
+	top: 0rem;
+	left: 4rem;
+	background: url(https://hdggcdn.bayimob.com/hdggstatic/fangyanhua/sui6.png) no-repeat;
+	background-size: 100% 100%;
+}
+.posui .seven {
+	width: 1.975rem;
+	height: 2.95rem;
+	position: absolute;
+	top: 3rem;
+	left: 2rem;
+	background: url(https://hdggcdn.bayimob.com/hdggstatic/fangyanhua/sui7.png) no-repeat;
+	background-size: 100% 100%;
+}
+.posui .eight {
+	width: 1.05rem;
+	height: 1.025rem;
+	position: absolute;
+	top: -3rem;
+	left: 3rem;
+	background: url(https://hdggcdn.bayimob.com/hdggstatic/fangyanhua/money.png) no-repeat;
+	background-size: 100% 100%;
+}
+.posui .nine {
+	width: 1.05rem;
+	height: 1.025rem;
+	position: absolute;
+	top: 0rem;
+	left: 2rem;
+	background: url(https://hdggcdn.bayimob.com/hdggstatic/fangyanhua/money.png) no-repeat;
+	background-size: 100% 100%;
+}
+.posui .ten {
+	width: 1.05rem;
+	height: 1.025rem;
+	position: absolute;
+	top: 1rem;
+	left: 11rem;
+	background: url(https://hdggcdn.bayimob.com/hdggstatic/fangyanhua/money.png) no-repeat;
+	background-size: 100% 100%;
+}
+.posui .first {
+	width: 1.05rem;
+	height: 1.025rem;
+	position: absolute;
+	top: -3rem;
+	left: 10rem;
+	background: url(https://hdggcdn.bayimob.com/hdggstatic/fangyanhua/money.png) no-repeat;
+	background-size: 100% 100%;
+}
+.posui div {
+	animation: suiMove 1s infinite linear;
+	
+}
+@keyframes suiMove{
+	 0% {
+		 transform: rotate(0deg);
+	 }
+	 25% {
+		 transform: rotate(-15deg);
+	 }
+	 75% {
+		 transform: rotate(15deg);
+	 }
+}
+.stepCom {
+	width:2.125rem;
+	height: 14.775rem;
+	position: absolute;
+	top: 50%;
+	margin-top: -7.3875rem;
+	left: 1rem;
+	background: url(https://hdggcdn.bayimob.com/hdggstatic/fangyanhua/step.png) no-repeat;
+	background-size: 100%;
+}
+
+.stepCotent {
+	width: 0.6rem;
+	height: 0rem;
+	position: absolute;
+	bottom: 0;
+	background-image: url(https://hdggcdn.bayimob.com/hdggstatic/fangyanhua/i.png);
+	background-size: 100% auto;
+	background-repeat: repeat;
+	border-radius: 15px; 
+}
+.stepBox {
+	width: 0.6rem;
+	height: 11rem;
+	position: absolute;
+	bottom: 0.2rem;
+	left: 50%;
+	margin-left: -0.3rem;
+	/* background: yellow; */
+	border-radius: 15px;
+}
+.stepJingbi {
+	width: 1.85rem;
+	height: 0.875rem;
+	position: absolute;
+	top: 92%;
+	left: 0.75rem;
+	background: url(https://hdggcdn.bayimob.com/hdggstatic/fangyanhua/jingbi.png) no-repeat;
+	background-size: 100% 100%;
+	color: #fff07a;
+	font-size: 0.6rem;
+	text-align: center;
+	line-height: 0.875rem;
+	display: none;
+}
+
+.xuehua {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	 
+}
+.xuehua  .xuehua1 {
+	width:1rem;
+	height: 0.875rem;
+	position: absolute;
+	top: 4rem;
+	left: 1rem;
+	background: url(../img/xuehua.png) no-repeat;
+	background-size: 100% 100%;
+}
+.xuehua  .xuehua2 {
+	width:0.784rem;
+	height: 0.455rem;
+	position: absolute;
+	top: 10rem;
+	left: 15rem;
+	background: url(../img/xuehua.png) no-repeat;
+	background-size: 100% 100%;
+}
+.xuehua  .xuehua3 {
+	width:0.965rem;
+	height: 0.875rem;
+	position: absolute;
+	top: 15rem;
+	left: 10rem;
+	background: url(../img/xuehua.png) no-repeat;
+	background-size: 100% 100%;
+}
+.xuehua  .xuehua4 {
+	width:0.937rem;
+	height: 0.875rem;
+	position: absolute;
+	top: 20rem;
+	left: 4rem;
+	background: url(../img/xuehua.png) no-repeat;
+	background-size: 100% 100%;
+}
+.xuehua  .xuehua5 {
+	width:0.568rem;
+	height: 0.275rem;
+	position: absolute;
+	top: 46rem;
+	left: 18rem;
+	background: url(../img/xuehua.png) no-repeat;
+	background-size: 100% 100%;
+}
+.xuehua  .xuehua6 {
+	width:1.3rem;
+	height: 0.875rem;
+	position: absolute;
+	top: 32rem;
+	left: 13rem;
+	background: url(../img/xuehua.png) no-repeat;
+	background-size: 100% 100%;
+}
+.xuehua  .xuehua7 {
+	width:0.827rem;
+	height: 0.875rem;
+	position: absolute;
+	top: 50rem;
+	left: 14rem;
+	background: url(../img/xuehua.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.xuehua  .xuehua8 {
+	width:1.1rem;
+	height: 0.875rem;
+	position: absolute;
+	top: 26rem;
+	left: 8rem;
+	background: url(../img/xuehua.png) no-repeat;
+	background-size: 100% 100%;
+}
+.xuehua  .xuehua9 {
+	width:0.895rem;
+	height: 0.675rem;
+	position: absolute;
+	top: 38rem;
+	left: 13rem;
+	background: url(../img/xuehua.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.xuehua  .xuehua10 {
+	width: 1.2rem;
+    height: 0.875rem;
+    position: absolute;
+    top: 10rem;
+    left: 4rem;
+    background: url(../img/xuehua.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.xuehua  .xuehua11 {
+	width: 0.825rem;
+    height: 0.875rem;
+    position: absolute;
+    top: 13rem;
+    left: 1rem;
+    background: url(../img/xuehua.png) no-repeat;
+    background-size: 100% 100%;
+}
+.xuehua  .xuehua12 {
+	width: 0.345rem;
+    height: 0.278rem;
+    position: absolute;
+    top: 7rem;
+    left: 15rem;
+    background: url(../img/xuehua.png) no-repeat;
+    background-size: 100% 100%;
+}
+.xuehua  .xuehua13 {
+	    width: 1.2rem;
+    height: 0.875rem;
+    position: absolute;
+    top: 18rem;
+    left: 13rem;
+    background: url(../img/xuehua.png) no-repeat;
+    background-size: 100% 100%;
+}
+.xuehua  .xuehua14 {
+	width: 0.848rem;
+    height: 0.775rem;
+    position: absolute;
+    top: 25rem;
+    left: 17rem;
+    background: url(../img/xuehua.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.xuehua  .xuehua15 {
+	width: 1rem;
+    height: 0.875rem;
+    position: absolute;
+    top: 2rem;
+    left: 15rem;
+    background: url(../img/xuehua.png) no-repeat;
+    background-size: 100% 100%;
+}
+.xuehua  .xuehua16 {
+	width:1rem;
+	height: 0.875rem;
+	position: absolute;
+	top: 4rem;
+	left: 1rem;
+	background: url(../img/xuehua.png) no-repeat;
+	background-size: 100% 100%;
+}
+.xuehua li img {
+	width: 100%;
+	height: 100%;
+}
+
+.xuehua li {
+  position: absolute;
+  animation: all 3s linear;
+  top: -100px;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.xuehua div {
+	animation: ribbon 4s linear 1s infinite;
+    -webkit-animation: ribbon 4s linear 1s infinite;
+}
+@keyframes ribbon{
+	0% {
+    opacity: 1;
+    transform: translate(0, 0);
+    -webkit-transform: translate(0, 0);
+}
+100% {
+    opacity: 0;
+    transform: translate(-10px, 80px);
+    -webkit-transform: translate(-10px, 80px);
+}
+}
+ .rule {
+	 width: 2.275rem;
+	 height: 1.575rem;
+	 position: absolute;
+	 top: 18%;
+	 left: 0.5rem;
+	 background: url(https://hdggcdn.bayimob.com/hdggstatic/fangyanhua/rule.png) no-repeat;
+	 background-size: 100% 100%;
+	 z-index: 2;
+ }
+ .jiang {
+	 width: 2.275rem;
+	 height: 1.575rem;
+	 position: absolute;
+	 top: 18%;
+	 right: 0.5rem;
+	 background: url(https://hdggcdn.bayimob.com/hdggstatic/fangyanhua/win.png) no-repeat;
+	 background-size: 100% 100%;
+	 z-index: 2;
+ }
+ 
+ .notice {
+   position: relative;
+   padding-bottom: 0.5rem;
+   z-index: 3;
+ }
+ 
+ .notice h1 {
+   font-size: 0.8rem;
+   line-height: 1rem;
+   margin-top: 0.5rem;
+   color: #440d00;
+   text-align: center;
+   font-weight: normal;
+ }
+ 
+ .notice h1.ntile1 {
+   height: 3.5rem;
+   border-top-right-radius: 0.75rem;
+   border-top-left-radius: 0.75rem;
+   margin-top: 0;
+   background: url(https://hdggcdn.bayimob.com/hdggstatic/activenotice.jpg) no-repeat;
+   background-size: 100% 100%;
+ }
+ 
+ .notice h1.title {
+   color: #440d00;
+   text-align: left;
+   margin-top: 0.5rem;
+   margin-bottom: 0.25rem;
+ }
+ 
+ .notice h1 span {
+   width: 1.75rem;
+   height: 1px;
+   display: inline-block;
+   background: #440d00;
+   vertical-align: middle;
+ }
+ 
+ .notice h1 span:first-child {
+   margin-right: 0.4rem;
+ }
+ 
+ .notice h1 span:last-child {
+   margin-left: 0.4rem;
+ }
+ 
+ .notice .contant {
+   width: 85%;
+   height: 16rem;
+   margin: 0 auto;
+   padding: 0.5rem;
+   color: #440d00;
+   overflow: auto;
+ }
+ 
+ .notice .contant p {
+   line-height: 1rem;
+   font-size: 0.6rem;
+   margin-bottom: 0.25rem;
+ }
+ 
+ .notice .contant p.font14,
+ .notice .contant h1.font14 {
+   font-size: 0.7rem;
+ }
+ 
+ .zhenotice {
+   position: fixed;
+   top: 0;
+   left: 0;
+   display: none;
+   width: 100%;
+   height: 100%;
+   z-index: 4;
+   background: rgba(0, 0, 0, 0.4)
+ }
+ 
+ .alerty {
+   position: absolute;
+   top: 5.0rem;
+   left: 0;
+   display: none;
+   z-index: 5;
+   margin-top: 0.5rem;
+   margin-bottom: 0.9rem;
+   margin-right: 1.375rem;
+   margin-left: 1.375rem;
+   background: #fff;
+   border-radius: 0.75rem;
+ }
+ 
+ .saclose {
+   position: absolute;
+   top: 0.5rem;
+   right: 0.5rem;
+   z-index: 3;
+   width: 1.6em;
+   height: 1.6em;
+   background: url(https://hdggcdn.bayimob.com/hdggstatic/hdgg_close.png) 0 0 no-repeat;
+   background-size: contain;
+ }
+ 
+ .moresay {
+   background: #fd6918;
+   color: #fff;
+   width: 80%;
+   height: 1.5rem;
+   margin: 0 auto;
+   text-align: center;
+   line-height: 1.5rem;
+ }
+ 
+ .moresayp {
+   display: none;
+   padding-top: 1.0rem;
+ }
+ 
+ .moresay i {
+   display: inline-block;
+   width: .4rem;
+   height: .4rem;
+   margin-left: .3rem;
+   transition: all .3s ease-in-out;
+   -webkit-transform: rotate(-135deg);
+   transform: rotate(-135deg);
+   -webkit-transform-origin: .15rem .15rem;
+   transform-origin: .15rem .15rem;
+   vertical-align: middle;
+   border: 1px solid transparent;
+   border-top-color: #fff;
+   border-left-color: #fff;
+ }
+ 
+ .activeadv i {
+   -webkit-transform: rotate(-315deg);
+   transform: rotate(-315deg);
+ }
+ 
+ #hdgg_show-win {
+   padding-left: 0;
+   margin-left: 0.2rem;
+ }
+ 
+ #hdgg_more_game_award {
+   z-index: 3;
+ }
+ #hdgg-left-float-image {
+	 top: 0.2rem !important;
+ }
+ 
